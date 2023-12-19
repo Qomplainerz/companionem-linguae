@@ -326,7 +326,7 @@
 	"wortart": "kardinalzahl",
 	"wort": "unus",
 	"phonetik": "ˈuː.nus",
-	"bedeutungen" ["eins"],
+	"bedeutungen": ["eins"],
 	"gebrauch": "Kardinalzahl, verwendet zur Quantifizierung",
 	"deklinationen":
 	{
@@ -1317,6 +1317,902 @@
     ],
     "synonyme": ["sed", "vero"],
     "besondere_verwendungen": "Kann auch verwendet werden, um einen Gedanken einzuführen oder zu betonen."
+},
+{
+    "wortart": "interjektion",
+    "wort": "ecce",
+    "phonetik": "ˈek.ke",
+    "bedeutungen": ["siehe", "schau", "da ist"],
+    "gebrauch": "Wird verwendet, um Aufmerksamkeit auf etwas Spezifisches zu lenken.",
+    "beispielsaetze": [
+        "Ecce homo! (Siehe, der Mensch!)",
+        "Ecce, quam bonum! (Schau, wie gut!)"
+    ],
+    "etymologie": "Stammt vom lateinischen Demonstrativpronomen 'ecce', was 'siehe' oder 'da ist' bedeutet.",
+    "verwendungshinweise": "Oft in literarischen und rhetorischen Kontexten verwendet, um Dramatik oder Betonung zu erzeugen.",
+    "kulturelle_referenzen": "Prominent in biblischen Texten und klassischer römischer Literatur, oft zur Hervorhebung wichtiger oder überraschender Momente.",
+    "historische_verwendung": "War in der antiken römischen Rhetorik und Literatur weit verbreitet, um die Aufmerksamkeit auf etwas Wichtiges oder Unerwartetes zu lenken."
+},
+{
+    "wortart": "kardinalzahl",
+    "wort": "duo",
+    "phonetik": "ˈduːo",
+    "bedeutungen": ["zwei"],
+    "gebrauch": "Verwendet zur Quantifizierung oder Angabe einer Menge von zwei Einheiten.",
+    "beispielsaetze": [
+        "Duo libri sunt in mensa. (Zwei Bücher sind auf dem Tisch.)",
+        "Duo oculi ad videndum sunt. (Zwei Augen sind zum Sehen da.)"
+    ],
+    "etymologie": "Vom lateinischen 'duo', abgeleitet von der indoeuropäischen Wurzel *dwóh₁, was 'zwei' bedeutet.",
+    "verwendungshinweise": "Wird in verschiedenen Kontexten zur Angabe einer Anzahl oder Paarung verwendet, von alltäglichen Zählungen bis zu symbolischen und literarischen Verwendungen.",
+    "kulturelle_referenzen": "Wird in vielen historischen und kulturellen Texten verwendet, oft um Dualität oder Paare zu symbolisieren.",
+    "historische_verwendung": "Eine grundlegende Zahl im römischen Zahlensystem und in der römischen Kultur, häufig verwendet in verschiedenen literarischen, wissenschaftlichen und mathematischen Kontexten."
+},
+{
+    "wortart": "ordinalzahl",
+    "wort": "secundus",
+    "phonetik": "ˈse.kʊn.dʊs",
+    "bedeutungen": ["zweiter"],
+    "deklination": {
+        "maskulinum": {
+            "singular": {
+                "nominativ": "secundus",
+                "genitiv": "secundi",
+                "dativ": "secundo",
+                "akkusativ": "secundum",
+                "ablativ": "secundo"
+            },
+            "plural": {
+                "nominativ": "secundi",
+                "genitiv": "secundorum",
+                "dativ": "secundis",
+                "akkusativ": "secundos",
+                "ablativ": "secundis"
+            }
+        },
+        "femininum": {
+            "singular": {
+                "nominativ": "secunda",
+                "genitiv": "secundae",
+                "dativ": "secundae",
+                "akkusativ": "secundam",
+                "ablativ": "secunda"
+            },
+            "plural": {
+                "nominativ": "secundae",
+                "genitiv": "secundarum",
+                "dativ": "secundis",
+                "akkusativ": "secundas",
+                "ablativ": "secundis"
+            }
+        },
+        "neutrum": {
+            "singular": {
+                "nominativ": "secundum",
+                "genitiv": "secundi",
+                "dativ": "secundo",
+                "akkusativ": "secundum",
+                "ablativ": "secundo"
+            },
+            "plural": {
+                "nominativ": "secunda",
+                "genitiv": "secundorum",
+                "dativ": "secundis",
+                "akkusativ": "secunda",
+                "ablativ": "secundis"
+            }
+        }
+    },
+    "beispielsaetze": [
+        "Secundus dies septimanae est Lunae dies. (Der zweite Tag der Woche ist Montag.)",
+        "Secundus liber in serie est interessantior. (Das zweite Buch in der Reihe ist interessanter.)"
+    ],
+    "etymologie": "Vom lateinischen 'secundus', abgeleitet von 'sequi' (folgen), was 'der nachfolgende' oder 'der zweite' bedeutet.",
+    "verwendungshinweise": "Wird verwendet, um die zweite Position in einer Reihenfolge oder Sequenz anzugeben, wie in Datumsangaben, Listen, wissenschaftlichen und literarischen Kontexten."
+},
+{
+    "wortart": "ordinalzahl",
+    "wort": "tertius",
+    "phonetik": "ˈter.ti.us",
+    "bedeutungen": ["dritter"],
+    "deklination": {
+        "maskulinum": {
+            "singular": {
+                "nominativ": "tertius",
+                "genitiv": "tertii",
+                "dativ": "tertio",
+                "akkusativ": "tertium",
+                "ablativ": "tertio"
+            },
+            "plural": {
+                "nominativ": "tertii",
+                "genitiv": "tertiorum",
+                "dativ": "tertiis",
+                "akkusativ": "tertios",
+                "ablativ": "tertiis"
+            }
+        },
+        "femininum": {
+            "singular": {
+                "nominativ": "tertia",
+                "genitiv": "tertiae",
+                "dativ": "tertiae",
+                "akkusativ": "tertiam",
+                "ablativ": "tertia"
+            },
+            "plural": {
+                "nominativ": "tertiae",
+                "genitiv": "tertiarum",
+                "dativ": "tertiis",
+                "akkusativ": "tertias",
+                "ablativ": "tertiis"
+            }
+        },
+        "neutrum": {
+            "singular": {
+                "nominativ": "tertium",
+                "genitiv": "tertii",
+                "dativ": "tertio",
+                "akkusativ": "tertium",
+                "ablativ": "tertio"
+            },
+            "plural": {
+                "nominativ": "tertia",
+                "genitiv": "tertiorum",
+                "dativ": "tertiis",
+                "akkusativ": "tertia",
+                "ablativ": "tertiis"
+            }
+        }
+    },
+    "beispielsaetze": [
+        "Tertius gradus honoris in competitione est bronzea medalia. (Der dritte Platz in einem Wettbewerb ist die Bronzemedaille.)",
+        "Tertius dies septimanae est Martis dies. (Der dritte Tag der Woche ist Dienstag.)"
+    ],
+    "etymologie": "Vom lateinischen 'tertius', abgeleitet von 'tres' (drei).",
+    "verwendungshinweise": "Wird verwendet, um die dritte Position in einer Reihenfolge oder Sequenz anzugeben, häufig in Datumsangaben, Listen, wissenschaftlichen und literarischen Kontexten."
+},
+{
+    "wortart": "ordinalzahl",
+    "wort": "quartus",
+    "phonetik": "ˈkwar.tus",
+    "bedeutungen": ["vierter"],
+    "deklination": {
+        "maskulinum": {
+            "singular": {
+                "nominativ": "quartus",
+                "genitiv": "quarti",
+                "dativ": "quarto",
+                "akkusativ": "quartum",
+                "ablativ": "quarto"
+            },
+            "plural": {
+                "nominativ": "quarti",
+                "genitiv": "quartorum",
+                "dativ": "quartis",
+                "akkusativ": "quartos",
+                "ablativ": "quartis"
+            }
+        },
+        "femininum": {
+            "singular": {
+                "nominativ": "quarta",
+                "genitiv": "quartae",
+                "dativ": "quartae",
+                "akkusativ": "quartam",
+                "ablativ": "quarta"
+            },
+            "plural": {
+                "nominativ": "quartae",
+                "genitiv": "quartarum",
+                "dativ": "quartis",
+                "akkusativ": "quartas",
+                "ablativ": "quartis"
+            }
+        },
+        "neutrum": {
+            "singular": {
+                "nominativ": "quartum",
+                "genitiv": "quarti",
+                "dativ": "quarto",
+                "akkusativ": "quartum",
+                "ablativ": "quarto"
+            },
+            "plural": {
+                "nominativ": "quarta",
+                "genitiv": "quartorum",
+                "dativ": "quartis",
+                "akkusativ": "quarta",
+                "ablativ": "quartis"
+            }
+        }
+    },
+    "beispielsaetze": [
+        "Quartus mensis anni est Aprilis. (Der vierte Monat des Jahres ist April.)",
+        "Quartus locus in cursu est prope podium. (Der vierte Platz im Rennen ist nahe am Podium.)"
+    ],
+    "etymologie": "Vom lateinischen 'quartus', abgeleitet von 'quattuor' (vier).",
+    "verwendungshinweise": "Wird verwendet, um die vierte Position in einer Reihenfolge oder Sequenz anzugeben, wie in Datumsangaben, Listen, wissenschaftlichen und literarischen Kontexten."
+},
+{
+    "wortart": "ordinalzahl",
+    "wort": "sextus",
+    "phonetik": "ˈsek.stʊs",
+    "bedeutungen": ["sechster"],
+    "deklination": {
+        "maskulinum": {
+            "singular": {
+                "nominativ": "sextus",
+                "genitiv": "sexti",
+                "dativ": "sexto",
+                "akkusativ": "sextum",
+                "ablativ": "sexto"
+            },
+            "plural": {
+                "nominativ": "sexti",
+                "genitiv": "sextorum",
+                "dativ": "sextis",
+                "akkusativ": "sextos",
+                "ablativ": "sextis"
+            }
+        },
+        "femininum": {
+            "singular": {
+                "nominativ": "sexta",
+                "genitiv": "sextae",
+                "dativ": "sextae",
+                "akkusativ": "sextam",
+                "ablativ": "sexta"
+            },
+            "plural": {
+                "nominativ": "sextae",
+                "genitiv": "sextarum",
+                "dativ": "sextis",
+                "akkusativ": "sextas",
+                "ablativ": "sextis"
+            }
+        },
+        "neutrum": {
+            "singular": {
+                "nominativ": "sextum",
+                "genitiv": "sexti",
+                "dativ": "sexto",
+                "akkusativ": "sextum",
+                "ablativ": "sexto"
+            },
+            "plural": {
+                "nominativ": "sexta",
+                "genitiv": "sextorum",
+                "dativ": "sextis",
+                "akkusativ": "sexta",
+                "ablativ": "sextis"
+            }
+        }
+    },
+    "beispielsaetze": [
+        "Sextus mensis anni est Iunius. (Der sechste Monat des Jahres ist Juni.)",
+        "Sextus dies septimanae est Saturni dies. (Der sechste Tag der Woche ist Samstag.)"
+    ],
+    "etymologie": "Vom lateinischen 'sextus', abgeleitet von 'sex' (sechs).",
+    "verwendungshinweise": "Wird verwendet, um die sechste Position in einer Reihenfolge oder Sequenz anzugeben, wie in Datumsangaben, Listen, wissenschaftlichen und literarischen Kontexten."
+},
+{
+    "wortart": "ordinalzahl",
+    "wort": "septimus",
+    "phonetik": "ˈsep.tɪ.mʊs",
+    "bedeutungen": ["siebter"],
+    "deklination": {
+        "maskulinum": {
+            "singular": {
+                "nominativ": "septimus",
+                "genitiv": "septimi",
+                "dativ": "septimo",
+                "akkusativ": "septimum",
+                "ablativ": "septimo"
+            },
+            "plural": {
+                "nominativ": "septimi",
+                "genitiv": "septimorum",
+                "dativ": "septimis",
+                "akkusativ": "septimos",
+                "ablativ": "septimis"
+            }
+        },
+        "femininum": {
+            "singular": {
+                "nominativ": "septima",
+                "genitiv": "septimae",
+                "dativ": "septimae",
+                "akkusativ": "septimam",
+                "ablativ": "septima"
+            },
+            "plural": {
+                "nominativ": "septimae",
+                "genitiv": "septimarum",
+                "dativ": "septimis",
+                "akkusativ": "septimas",
+                "ablativ": "septimis"
+            }
+        },
+        "neutrum": {
+            "singular": {
+                "nominativ": "septimum",
+                "genitiv": "septimi",
+                "dativ": "septimo",
+                "akkusativ": "septimum",
+                "ablativ": "septimo"
+            },
+            "plural": {
+                "nominativ": "septima",
+                "genitiv": "septimorum",
+                "dativ": "septimis",
+                "akkusativ": "septima",
+                "ablativ": "septimis"
+            }
+        }
+    },
+    "beispielsaetze": [
+        "Septimus mensis anni est Iulius. (Der siebte Monat des Jahres ist Juli.)",
+        "Septimus liber Caesarii multum sapientiae continet. (Das siebte Buch des Caesarius enthält viel Weisheit.)"
+    ],
+    "etymologie": "Vom lateinischen 'septimus', abgeleitet von 'septem' (sieben).",
+    "verwendungshinweise": "Wird verwendet, um die siebte Position in einer Reihenfolge oder Sequenz anzugeben, wie in Datumsangaben, Listen, wissenschaftlichen und literarischen Kontexten."
+},
+{
+    "wortart": "ordinalzahl",
+    "wort": "octavus",
+    "phonetik": "ˈɔk.ta.wʊs",
+    "bedeutungen": ["achter"],
+    "deklination": {
+        "maskulinum": {
+            "singular": {
+                "nominativ": "octavus",
+                "genitiv": "octavi",
+                "dativ": "octavo",
+                "akkusativ": "octavum",
+                "ablativ": "octavo"
+            },
+            "plural": {
+                "nominativ": "octavi",
+                "genitiv": "octavorum",
+                "dativ": "octavis",
+                "akkusativ": "octavos",
+                "ablativ": "octavis"
+            }
+        },
+        "femininum": {
+            "singular": {
+                "nominativ": "octava",
+                "genitiv": "octavae",
+                "dativ": "octavae",
+                "akkusativ": "octavam",
+                "ablativ": "octava"
+            },
+            "plural": {
+                "nominativ": "octavae",
+                "genitiv": "octavarum",
+                "dativ": "octavis",
+                "akkusativ": "octavas",
+                "ablativ": "octavis"
+            }
+        },
+        "neutrum": {
+            "singular": {
+                "nominativ": "octavum",
+                "genitiv": "octavi",
+                "dativ": "octavo",
+                "akkusativ": "octavum",
+                "ablativ": "octavo"
+            },
+            "plural": {
+                "nominativ": "octava",
+                "genitiv": "octavorum",
+                "dativ": "octavis",
+                "akkusativ": "octava",
+                "ablativ": "octavis"
+            }
+        }
+    },
+    "beispielsaetze": [
+        "Octavus mensis anni est Augustus. (Der achte Monat des Jahres ist August.)",
+        "Octavus locus in cursu est post septimum. (Der achte Platz im Rennen ist nach dem siebten.)"
+    ],
+    "etymologie": "Vom lateinischen 'octavus', abgeleitet von 'octo' (acht).",
+    "verwendungshinweise": "Wird verwendet, um die achte Position in einer Reihenfolge oder Sequenz anzugeben, wie in Datumsangaben, Listen, wissenschaftlichen und literarischen Kontexten."
+},
+{
+    "wortart": "ordinalzahl",
+    "wort": "nonus",
+    "phonetik": "ˈnoː.nʊs",
+    "bedeutungen": ["neunter"],
+    "deklination": {
+        "maskulinum": {
+            "singular": {
+                "nominativ": "nonus",
+                "genitiv": "noni",
+                "dativ": "nono",
+                "akkusativ": "nonum",
+                "ablativ": "nono"
+            },
+            "plural": {
+                "nominativ": "noni",
+                "genitiv": "nonorum",
+                "dativ": "nonis",
+                "akkusativ": "nonos",
+                "ablativ": "nonis"
+            }
+        },
+        "femininum": {
+            "singular": {
+                "nominativ": "nona",
+                "genitiv": "nonae",
+                "dativ": "nonae",
+                "akkusativ": "nonam",
+                "ablativ": "nona"
+            },
+            "plural": {
+                "nominativ": "nonae",
+                "genitiv": "nonarum",
+                "dativ": "nonis",
+                "akkusativ": "nonas",
+                "ablativ": "nonis"
+            }
+        },
+        "neutrum": {
+            "singular": {
+                "nominativ": "nonum",
+                "genitiv": "noni",
+                "dativ": "nono",
+                "akkusativ": "nonum",
+                "ablativ": "nono"
+            },
+            "plural": {
+                "nominativ": "nona",
+                "genitiv": "nonorum",
+                "dativ": "nonis",
+                "akkusativ": "nona",
+                "ablativ": "nonis"
+            }
+        }
+    },
+    "beispielsaetze": [
+        "Nonus mensis anni est September. (Der neunte Monat des Jahres ist September.)",
+        "Nonus annus regni eius multa mutationes attulit. (Das neunte Jahr seiner Herrschaft brachte viele Veränderungen mit sich.)"
+    ],
+    "etymologie": "Vom lateinischen 'nonus', abgeleitet von 'novem' (neun).",
+    "verwendungshinweise": "Wird verwendet, um die neunte Position in einer Reihenfolge oder Sequenz anzugeben, wie in Datumsangaben, Listen, wissenschaftlichen und literarischen Kontexten."
+},
+{
+    "wortart": "ordinalzahl",
+    "wort": "decimus",
+    "phonetik": "ˈde.kɪ.mʊs",
+    "bedeutungen": ["zehnter"],
+    "deklination": {
+        "maskulinum": {
+            "singular": {
+                "nominativ": "decimus",
+                "genitiv": "decimi",
+                "dativ": "decimo",
+                "akkusativ": "decimum",
+                "ablativ": "decimo"
+            },
+            "plural": {
+                "nominativ": "decimi",
+                "genitiv": "decimorum",
+                "dativ": "decimis",
+                "akkusativ": "decimos",
+                "ablativ": "decimis"
+            }
+        },
+        "femininum": {
+            "singular": {
+                "nominativ": "decima",
+                "genitiv": "decimae",
+                "dativ": "decimae",
+                "akkusativ": "decimam",
+                "ablativ": "decima"
+            },
+            "plural": {
+                "nominativ": "decimae",
+                "genitiv": "decimarum",
+                "dativ": "decimis",
+                "akkusativ": "decimas",
+                "ablativ": "decimis"
+            }
+        },
+        "neutrum": {
+            "singular": {
+                "nominativ": "decimum",
+                "genitiv": "decimi",
+                "dativ": "decimo",
+                "akkusativ": "decimum",
+                "ablativ": "decimo"
+            },
+            "plural": {
+                "nominativ": "decima",
+                "genitiv": "decimorum",
+                "dativ": "decimis",
+                "akkusativ": "decima",
+                "ablativ": "decimis"
+            }
+        }
+    },
+    "beispielsaetze": [
+        "Decimus mensis anni est October. (Der zehnte Monat des Jahres ist Oktober.)",
+        "Decimus locus in cursu est ultimus in top ten. (Der zehnte Platz im Rennen ist der letzte in den Top Ten.)"
+    ],
+    "etymologie": "Vom lateinischen 'decimus', abgeleitet von 'decem' (zehn).",
+    "verwendungshinweise": "Wird verwendet, um die zehnte Position in einer Reihenfolge oder Sequenz anzugeben, wie in Datumsangaben, Listen, wissenschaftlichen und literarischen Kontexten."
+},
+{
+    "wortart": "kardinalzahl",
+    "wort": "tres",
+    "phonetik": "ˈtrɛs",
+    "bedeutungen": ["drei"],
+    "gebrauch": "Kardinalzahl, verwendet zur Quantifizierung von drei Einheiten",
+    "deklinationen": {
+        "maskulinum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "tres",
+                "genitiv": "trium",
+                "dativ": "tribus",
+                "akkusativ": "tres",
+                "ablativ": "tribus"
+            }
+        },
+        "femininum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "tres",
+                "genitiv": "trium",
+                "dativ": "tribus",
+                "akkusativ": "tres",
+                "ablativ": "tribus"
+            }
+        },
+        "neutrum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "tria",
+                "genitiv": "trium",
+                "dativ": "tribus",
+                "akkusativ": "tria",
+                "ablativ": "tribus"
+            }
+        }
+    },
+    "beispielsaetze": [
+        "Tres reges magi natum Christi venerunt. (Drei Könige kamen zur Geburt Christi.)",
+        "Tres dies in urbe mansi. (Ich blieb drei Tage in der Stadt.)"
+    ],
+    "besondere_verwendungen": "Wird häufig verwendet, um eine kleine, aber signifikante Anzahl zu repräsentieren, sowohl in alltäglichen als auch in literarischen und symbolischen Kontexten."
+},
+{
+    "wortart": "kardinalzahl",
+    "wort": "quattuor",
+    "phonetik": "ˈkwat.tu.or",
+    "bedeutungen": ["vier"],
+    "gebrauch": "Kardinalzahl, verwendet zur Quantifizierung von vier Einheiten",
+    "deklinationen": {
+        "maskulinum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "quattuor",
+                "genitiv": "quattuor",
+                "dativ": "quattuor",
+                "akkusativ": "quattuor",
+                "ablativ": "quattuor"
+            }
+        },
+        "femininum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "quattuor",
+                "genitiv": "quattuor",
+                "dativ": "quattuor",
+                "akkusativ": "quattuor",
+                "ablativ": "quattuor"
+            }
+        },
+        "neutrum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "quattuor",
+                "genitiv": "quattuor",
+                "dativ": "quattuor",
+                "akkusativ": "quattuor",
+                "ablativ": "quattuor"
+            }
+        }
+    },
+    "beispielsaetze": [
+        "Quattuor elementa sunt terra, aqua, aer, et ignis. (Die vier Elemente sind Erde, Wasser, Luft und Feuer.)",
+        "Quattuor annis in universitate studui. (Ich habe vier Jahre an der Universität studiert.)"
+    ],
+    "besondere_verwendungen": "Wird oft in Kontexten verwendet, die Stabilität und Ganzheit symbolisieren, wie in Bezug auf die vier Elemente oder die vier Himmelsrichtungen."
+},
+{
+    "wortart": "kardinalzahl",
+    "wort": "quinque",
+    "phonetik": "ˈkʷɪŋ.kʷe",
+    "bedeutungen": ["fünf"],
+    "gebrauch": "Kardinalzahl, verwendet zur Quantifizierung von fünf Einheiten",
+    "deklinationen": {
+        "maskulinum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "quinque",
+                "genitiv": "quinque",
+                "dativ": "quinque",
+                "akkusativ": "quinque",
+                "ablativ": "quinque"
+            }
+        },
+        "femininum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "quinque",
+                "genitiv": "quinque",
+                "dativ": "quinque",
+                "akkusativ": "quinque",
+                "ablativ": "quinque"
+            }
+        },
+        "neutrum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "quinque",
+                "genitiv": "quinque",
+                "dativ": "quinque",
+                "akkusativ": "quinque",
+                "ablativ": "quinque"
+            }
+        }
+    },
+    "beispielsaetze": [
+        "Quinque digiti sunt in una manu. (Fünf Finger sind an einer Hand.)",
+        "Quinque sensores hominis sunt visus, auditus, gustus, olfactus, et tactus. (Die fünf Sinne des Menschen sind Sehen, Hören, Schmecken, Riechen und Tasten.)"
+    ],
+    "besondere_verwendungen": "Wird oft in Kontexten verwendet, die eine Handvoll oder eine kleine Gruppe repräsentieren, wie in Bezug auf die fünf Sinne oder die fünf Finger einer Hand."
+},
+{
+    "wortart": "kardinalzahl",
+    "wort": "sex",
+    "phonetik": "sɛks",
+    "bedeutungen": ["sechs"],
+    "gebrauch": "Kardinalzahl, verwendet zur Quantifizierung von sechs Einheiten",
+    "deklinationen": {
+        "maskulinum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "sex",
+                "genitiv": "sextum",
+                "dativ": "sexis",
+                "akkusativ": "sextum",
+                "ablativ": "sexis"
+            }
+        },
+        "femininum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "sextae",
+                "genitiv": "sextarum",
+                "dativ": "sextis",
+                "akkusativ": "sextas",
+                "ablativ": "sextis"
+            }
+        },
+        "neutrum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "sexta",
+                "genitiv": "sextum",
+                "dativ": "sextis",
+                "akkusativ": "sexta",
+                "ablativ": "sextis"
+            }
+        }
+    },
+    "beispielsaetze": [
+        "Sex dies sunt in una hebdomada laboratoria. (Sechs Tage sind in einer Arbeitswoche.)",
+        "Sex anguli sunt in hexagono. (Sechs Winkel sind in einem Hexagon.)"
+    ],
+    "besondere_verwendungen": "Wird oft in mathematischen und wissenschaftlichen Kontexten verwendet, z.B. zur Beschreibung geometrischer Formen wie Hexagone."
+},
+{
+    "wortart": "kardinalzahl",
+    "wort": "septem",
+    "phonetik": "ˈsep.tem",
+    "bedeutungen": ["sieben"],
+    "gebrauch": "Kardinalzahl, verwendet zur Quantifizierung von sieben Einheiten",
+    "deklinationen": {
+        "maskulinum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "septem",
+                "genitiv": "septem",
+                "dativ": "septem",
+                "akkusativ": "septem",
+                "ablativ": "septem"
+            }
+        },
+        "femininum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "septem",
+                "genitiv": "septem",
+                "dativ": "septem",
+                "akkusativ": "septem",
+                "ablativ": "septem"
+            }
+        },
+        "neutrum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "septem",
+                "genitiv": "septem",
+                "dativ": "septem",
+                "akkusativ": "septem",
+                "ablativ": "septem"
+            }
+        }
+    },
+    "beispielsaetze": [
+        "Septem diebus hebdomada constituitur. (Eine Woche besteht aus sieben Tagen.)",
+        "Septem colores sunt in arcu caelesti. (Es gibt sieben Farben im Regenbogen.)"
+    ],
+    "besondere_verwendungen": "Wird oft in kulturellen, religiösen und mythologischen Kontexten verwendet, wie den sieben Weltwundern oder den sieben Todsünden."
+},
+{
+    "wortart": "kardinalzahl",
+    "wort": "octo",
+    "phonetik": "ˈɔk.to",
+    "bedeutungen": ["acht"],
+    "gebrauch": "Kardinalzahl, verwendet zur Quantifizierung von acht Einheiten",
+    "deklinationen": {
+        "maskulinum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "octo",
+                "genitiv": "octo",
+                "dativ": "octo",
+                "akkusativ": "octo",
+                "ablativ": "octo"
+            }
+        },
+        "femininum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "octo",
+                "genitiv": "octo",
+                "dativ": "octo",
+                "akkusativ": "octo",
+                "ablativ": "octo"
+            }
+        },
+        "neutrum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "octo",
+                "genitiv": "octo",
+                "dativ": "octo",
+                "akkusativ": "octo",
+                "ablativ": "octo"
+            }
+        }
+    },
+    "beispielsaetze": [
+        "Octo pedes habet aranea. (Eine Spinne hat acht Beine.)",
+        "Octo planetae sunt in systemate solari nostro. (Es gibt acht Planeten in unserem Sonnensystem.)"
+    ],
+    "besondere_verwendungen": "Wird häufig in naturwissenschaftlichen und astronomischen Kontexten verwendet, wie bei den acht Planeten des Sonnensystems oder den acht Phasen des Mondes."
+},
+{
+    "wortart": "kardinalzahl",
+    "wort": "novem",
+    "phonetik": "ˈno.wem",
+    "bedeutungen": ["neun"],
+    "gebrauch": "Kardinalzahl, verwendet zur Quantifizierung von neun Einheiten",
+    "deklinationen": {
+        "maskulinum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "novem",
+                "genitiv": "novem",
+                "dativ": "novem",
+                "akkusativ": "novem",
+                "ablativ": "novem"
+            }
+        },
+        "femininum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "novem",
+                "genitiv": "novem",
+                "dativ": "novem",
+                "akkusativ": "novem",
+                "ablativ": "novem"
+            }
+        },
+        "neutrum": {
+            "singular": {},
+            "plural": {
+                "nominativ": "novem",
+                "genitiv": "novem",
+                "dativ": "novem",
+                "akkusativ": "novem",
+                "ablativ": "novem"
+            }
+        }
+    },
+    "beispielsaetze": [
+        "Novem Musae sunt in mythologia Graeca. (Es gibt neun Musen in der griechischen Mythologie.)",
+        "Novem iudices sunt in summo iudicio Civitatum Foederatarum. (Es gibt neun Richter am Obersten Gerichtshof der Vereinigten Staaten.)"
+    ],
+    "besondere_verwendungen": "Wird oft in kulturellen, mythologischen und historischen Kontexten verwendet, wie bei den neun Musen der griechischen Mythologie oder den neun Welten der nordischen Mythologie."
+},
+{
+    "wortart": "kardinalzahl",
+    "wort": "nullus",
+    "phonetik": "ˈnʊl.lʊs",
+    "bedeutungen": ["null"],
+    "gebrauch": "Verwendet, um das Fehlen jeglicher Menge oder das Konzept von 'null' auszudrücken",
+    "deklinationen": {
+        "maskulinum": {
+            "singular": {
+                "nominativ": "nullus",
+                "genitiv": "nullius",
+                "dativ": "nulli",
+                "akkusativ": "nullum",
+                "ablativ": "nullo"
+            },
+            "plural": {
+                "nominativ": "nulli",
+                "genitiv": "nullorum",
+                "dativ": "nullis",
+                "akkusativ": "nullos",
+                "ablativ": "nullis"
+            }
+        },
+        "femininum": {
+            "singular": {
+                "nominativ": "nulla",
+                "genitiv": "nullius",
+                "dativ": "nullae",
+                "akkusativ": "nullam",
+                "ablativ": "nulla"
+            },
+            "plural": {
+                "nominativ": "nullae",
+                "genitiv": "nullarum",
+                "dativ": "nullis",
+                "akkusativ": "nullas",
+                "ablativ": "nullis"
+            }
+        },
+        "neutrum": {
+            "singular": {
+                "nominativ": "nullum",
+                "genitiv": "nullius",
+                "dativ": "nulli",
+                "akkusativ": "nullum",
+                "ablativ": "nullo"
+            },
+            "plural": {
+                "nominativ": "nulla",
+                "genitiv": "nullorum",
+                "dativ": "nullis",
+                "akkusativ": "nulla",
+                "ablativ": "nullis"
+            }
+        }
+    },
+    "beispielsaetze": [
+        "Nullus error in calculo inventus est. (Es wurde kein Fehler in der Berechnung gefunden.)",
+        "In sacculo nullae monetae sunt. (In der Tasche sind keine Münzen.)"
+    ],
+    "besondere_verwendungen": "Wird oft metaphorisch oder in abstrakten Kontexten verwendet, um das Fehlen oder die Abwesenheit von etwas anzudeuten."
 }
 // Reihenfolge
 // Nomen
