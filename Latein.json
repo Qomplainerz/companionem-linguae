@@ -1,0 +1,1334 @@
+{
+	"wortart": "nomen",
+	"wort": "aqua",
+	"Phonetik": "a.kʷa",
+	"genitiv": "aquae",
+	"geschlecht": "femininum",
+	"deklination": 
+	{
+		"singular": 
+		{
+			"nominativ": "aqua",
+			"genitiv": "aquae",
+			"dativ": "aquae",
+			"akkusativ": "aquam",
+			"ablativ": "aqua"
+		},
+		"plural": 
+		{
+			"nominativ": "aquae",
+			"genitiv": "aquarum",
+			"dativ": "aquis",
+			"akkusativ": "aquas",
+			"ablativ": "aquis"
+		}
+	},
+	"bedeutungen": ["Wasser", "Regen"],
+	"beispielsaetze": 
+	[
+		"Aqua in terra est.",
+		"Agricolae aquam ad plantas dant."
+	],
+	"synonyme": ["undae", "flumen"],
+	"etymologie": "Vom lateinischen 'aqua', was 'Wasser' bedeutet.",
+	"verwendungshinweise": "Häufig verwendet in der Beschreibung natürlicher Szenen oder in poetischen Kontexten."
+},
+{
+	"wortart": "verb",
+	"wort": "amo",
+	"Phonetik": "ˈa.mo",
+	"infinitiv": "amare",
+	"partizipien":
+	{
+		"aktiv": "amans",
+		"passiv": "amatus"
+	},
+	"konjugation":
+	{
+		"praesens_indikativ":
+		{
+			"ich": "amo",
+			"du": "amas",
+			"er_sie_es": "amat",
+			"wir": "amamus",
+			"ihr": "amatis",
+			"sie": "amant"
+		},
+		"imperfekt_indikativ":
+		{
+			"ich": "amabam",
+			"du": "amabas",
+			"er_sie_es": "amabat",
+			"wir": "amabamus",
+			"ihr": "amabatis",
+			"sie": "amabant"
+		},
+		"futur_i_indikativ":
+		{
+			"ich": "amabo",
+			"du": "amabis",
+			"er_sie_es": "amabit",
+			"wir": "amabimus",
+			"ihr": "amabitis",
+			"sie": "amabunt"
+		],
+		"perfekt_indikativ":
+		{
+			"ich": "amavi",
+			"du": "amavisti",
+			"er_sie_es": "amavit",
+			"wir": "amavimus",
+			"ihr": "amavistis",
+			"sie": "amaverunt"
+		},
+		"plusquamperfekt_indikativ":
+		{
+			"ich": "amaveram",
+			"du": "amaveras",
+			"er_sie_es": "amaverat",
+			"wir": "amaveramus",
+			"ihr": "amaveratis",
+			"sie": "amaverant"
+		},
+		"futur_ii_indikativ":
+		{
+			"ich": "amavero",
+			"du": "amaveris",
+			"er_sie_es": "amaverit",
+			"wir": "amaverimus",
+			"ihr": "amaveritis",
+			"sie": "amaverint"
+		},
+		"praesens_konjunktiv":
+		{
+			"ich": "amem",
+			"du": "ames",
+			"er_sie_es": "amet",
+			"wir": "amemus",
+			"ihr": "ametis",
+			"sie": "ament"
+		},
+		"imperfekt_konjunktiv":
+		{
+			"ich": "amarem",
+			"du": "amares",
+			"er_sie_es": "amaret",
+			"wir": "amaremus",
+			"ihr": "amaretis",
+			"sie": "amarent"
+		},
+		"imperativ":
+		{
+			"singular": "ama",
+			"plural": "amate"
+		}
+		// Weitere Zeitformen, wie Perfekt und Plusquamperfekt Konjunktiv
+	},
+	"bedeutungen": ["lieben", "mögen"],
+	"beispielsaetze": 
+	[
+		"Ego te amo.",
+		"Amo vitam."
+	],
+	"verwendungshinweise": "Wird häufig verwendet, um Zuneigung oder Vorliebe auszudrücken.",
+	"etymologie": "Vom lateinischen 'amo', abgeleitet von 'amare', was 'lieben' bedeutet."
+},
+{
+	"wortart": "adjektiv",
+	"wort": "fortis",
+	"phonetik": "ˈfor.tis",
+	"komparativ": "fortior",
+	"superlativ": "fortissimus",
+	"deklination":
+	{
+		"maskulinum":
+		{
+			"singular":
+			{
+				"nominativ": "fortis",
+				"genitiv": "fortis",
+				"dativ": "forti",
+				"akkusativ": "fortem",
+				"ablativ": "forti"
+			},
+			"plural":
+			{
+				"nominativ": "fortes",
+				"genitiv": "fortium",
+				"dativ": "fortibus",
+				"akkusativ": "fortes",
+				"ablativ": "fortibus"
+			}
+		},
+		"femininum":
+		{
+			"singular":
+			{
+				"nominativ": "fortis",
+				"genitiv": "fortis",
+				"dativ": "forti",
+				"akkusativ": "fortem",
+				"ablativ": "forti"
+			},
+			"plural":
+			{
+				"nominativ": "fortes",
+				"genitiv": "fortium",
+				"dativ": "fortibus",
+				"akkusativ": "fortes",
+				"ablativ": "fortibus"
+			}
+		},
+		"neutrum":
+		{
+			"singular":
+			{
+				"nominativ": "forte",
+				"genitiv": "fortis",
+				"dativ": "forti",
+				"akkusativ": "forte",
+				"ablativ": "forti"
+			},
+			"plural":
+			{
+				"nominativ": "fortia",
+				"genitiv": "fortium",
+				"dativ": "fortibus",
+				"akkusativ": "fortia",
+				"ablativ": "fortibus"
+			}
+		},
+		"bedeutungen": ["stark", "tapfer"],
+		"beispielsaetze":
+		[
+			"Miles fortis in proelio pugnat.",
+			"Fortis animo est."
+		],
+		"etymologie": "Vom lateinischen 'fortis', bedeutet 'stark' oder 'tapfer'.",
+		"verwendungshinweise": "Oft verwendet, um Mut oder Stärke zu beschreiben."
+},
+{
+	"wortart": "adverb",
+	"wort": "celeriter",
+	"phonetik": "ˈke.le.ri.ter",
+	"bedeutungen": ["schnell", "rasch"],
+	"beziehungen_zu_adjektiven":
+	{
+		"adjektiv_basis": "celer, celeris, celere",
+		"bedeutung_adjektiv": "schnell, rasch"
+	},
+	"beispielsaetze":
+	[
+		"Celeriter ad forum venit.",
+		"Legati celeriter respondere debebant."
+	],
+	"steigerungsformen":
+	{
+		"komperativ": "celerius",
+		"superlativ": "celerrime"
+	},
+	"etymologie": "Vom Adjektiv 'celer, celeris, celere', was 'schnell' bedeutet.",
+	"synonyme": ["velociter", "rapidus"],
+	"antonyme": ["lente", "tardus"],
+	"besondere_verwendungen": "Häufig verwendet, um Geschwindigkeit oder Eile in Handlungen oder Entscheidungen zu betonen."
+},
+{
+	"wortart": "pronomen",
+	"wort": "ego",
+	"phonetik": "ˈe.go",
+	"bedeutungen": ["ich"],
+	"gebrauch": "Persönliches Pronomen der ersten Person Singular",
+	"deklinationen":
+	{
+		"singular":
+		{
+			"nominativ": "ego",
+			"genitiv": "mei",
+			"dativ": "mihi",
+			"akkusativ": "me",
+			"ablativ": "me"
+		},
+		// Keine Pluralform, da "ego" immer singular ist
+	},
+	"beispielsaetze":
+	[
+		"Ego sum qui sum.",
+		"Ego te adiuvabo."
+	],
+	"synonyme": ["-", "keine direkten Synonyme"],
+	"besondere_verwendungen": "Wird verwendet, um den Sprecher oder Autor selbst zu bezeichnen."
+},
+{
+	"wortart": "präposition",
+	"wort": "in",
+	"phonetik": "in",
+	"bedeutungen": ["in", "auf", "gegen", "während"],
+	"gebrauch": "Wird mit Akkusativ oder Ablativ verwendet, abhängig von der Bedeutung",
+	"verwendung_mit_kasus":
+	{
+		"akkusativ":
+		{
+			"bedeutung": "in Richtung auf, auf, gegen",
+			"beispiel": "In urbem ire - In die Stadt gehen"
+		},
+		"ablativ":
+		{
+			"bedeutung": "in, auf, bei",
+			"beispiel": "In urbe vivere - In der Stadt leben"
+		}
+	},
+	"beispielsaetze":
+	[
+		"In silvam intravit.",
+		"In tempore difficili, virtus apparet."
+	],
+	"synonyme": ["ad", "super", "sub"],
+	"besondere_verwendungen": "Häufig in räumlichen und zeitlichen Kontexten verwendet."
+},
+{
+	"wortart": "konjunktion",
+	"wort": "et",
+	"phonetik": "et",
+	"bedeutungen": ["und"],
+	"gebrauch": "Verbindet gleichrangige Wörter, Phrasen oder Sätze,
+	"beispielsaetze":
+	[
+		"Roma et Carthago magnae urbes sunt.",
+		"Veni, vidi, et vici."
+	],
+	"synonyme": ["ac", "atque"],
+	"besondere_verwendungen": "Kann auch zur Hervorhebung oder Betonung des nachfolgenden Elements verwendet werden."
+},
+{
+    "wortart": "artikel",
+    "hinweis": "Nicht vorhanden im Lateinischen",
+    "beschreibung": "Im Lateinischen gibt es keine Artikel (definit oder indefinit).\nStattdessen werden Definitheit und Indefinitheit oft durch den Kontext, die Wortstellung und durch Adjektive oder Pronomen ausgedrückt.",
+    "beispielsaetze": [
+        "Roma urbs magna est. (Rom ist eine große Stadt.)",
+        "Vir sapientia est clarus. (Ein Mann ist für seine Weisheit berühmt.)"
+    ],
+    "besondere_hinweise": "Das Fehlen von Artikeln kann für Sprecher von Sprachen, die Artikel verwenden, anfangs verwirrend sein.\nIm Lateinischen wird die Funktion von Artikeln oft durch den Kontext und die Verwendung von Adjektiven oder Pronomen erfüllt."
+},
+{
+	"wortart": "interjektion",
+	"wort": "eheu",
+	"phonetik": "eˈheː.u",
+	"bedeutungen": ["ach", "oh weh"],
+	"gebrauch": "Drückt Trauer, Bedauern oder Bestürzung aus",
+	"beispielsaetze":
+	[
+		"Eheu! Fugaces labuntur anni. (Ach! Die flüchtigen Jahre entgleiten.)",
+		"Eheu, quid feci? (Oh weh, was habe ich getan?)"
+	],
+	"besondere_verwendungen": "Wird oft in poetischen oder dramatischen Kontexten verwendet,\n um starke Emotionen auszudrücken."
+},
+{
+	"wortart": "kardinalzahl",
+	"wort": "unus",
+	"phonetik": "ˈuː.nus",
+	"bedeutungen" ["eins"],
+	"gebrauch": "Kardinalzahl, verwendet zur Quantifizierung",
+	"deklinationen":
+	{
+		"maskulinum":
+		{
+			"singular":
+			{
+				"nominativ": "unus",
+				"genitiv": "unius",
+				"dativ": "uni",
+				"akkusativ": "unum",
+				"ablativ": "uno"
+			},
+			"plural":
+			{
+				"nominativ": "uni",
+				"genitiv": "unorum"
+				"dativ": "unis",
+				"akkusativ": "unos",
+				"ablativ": "unis"
+			}
+		},
+		"femininum":
+		{
+			"singular":
+			{
+				"nominativ": "una",
+				"genitiv": "unius",
+				"dativ": "unae",
+				"akkusativ": "unam",
+				"ablativ": "una"
+			},
+			"plural":
+			{
+				"nominativ": "unae",
+				"genitiv": "unarum",
+				"dativ": "unis",
+				"akkusativ": "unas",
+				"ablativ": "unis"
+			}
+		},
+		"neutrum":
+		{
+			"singular":
+			{
+				"nominativ": "unum",
+				"genitiv": "unius",
+				"dativ": "uni",
+				"akkusativ": "unum",
+				"ablativ": "uno"
+			},
+			"plural":
+			{
+				"nominativ": "una",
+				"genitiv": "unorum",
+				"dativ": "unis",
+				"akkusativ": "una",
+				"ablativ": "unis"
+			}
+		}
+	},
+	"beispielsaetze":
+	[
+		"Unus vir non potest omnia facere. (Ein Mann allein kann nicht alles tun.)",
+		"Una hora brevis est. (Eine Stunde ist kurz.)"
+	],
+	"besondere_verwendungen": "Kann auch metaphorisch verwendet werden,\num Einheit oder Einzigartigkeit zu betonen."
+},
+{
+	"wortart": "ordinalzahl",
+	"wort": "primus",
+	"phonetik": "ˈpriː.mus",
+	"bedeutungen": ["erster"],
+	"gebrauch": "Ordinalzahl, verwendet zur Angabe von Reihenfolge oder Rang",
+	"deklinationen":
+	{
+		"maskulinum":
+		{
+			"singular":
+			{
+				"nominativ": "primus",
+				"genitiv": "primi",
+				"dativ": "primo",
+				"akkusativ": "primum",
+				"ablativ": "primo"
+			},
+			"plural":
+			{
+				"nominativ": "primi",
+				"genitiv": "primorum",
+				"dativ": "primis",
+				"akkusativ": "primos",
+				"ablativ": "primis"
+			}
+		},
+		"femininum":
+		{
+			"singular":
+			{
+				"nominativ": "prima",
+				"genitiv": "primae",
+				"dativ": "primae",
+				"akkusativ": "primam",
+				"ablativ": "prima"
+			},
+			"plural":
+			{
+				"nominativ": "primae",
+				"genitiv": "primarum",
+				"dativ": "primis",
+				"akkusativ": "primas",
+				"ablativ": "primis"
+			}
+		},
+		"neutrum":
+		{
+			"singular":
+			{
+				"nominativ": "primum",
+				"genitiv": "primi",
+				"dativ": "primo",
+				"akkusativ": "primum",
+				"ablativ": "primo"
+			},
+			"plural":
+			{
+				"nominativ": "prima",
+				"genitiv": "primorum",
+				"dativ": "primis",
+				"akkusativ": "prima",
+				"ablativ": "primis"
+			}
+		}
+	},
+	"beispielsaetze":
+	[
+		"Primus in proelio fuit. (Er war der Erste im Kampf.)",
+		"Prima luce advenimus. (Wir kamen bei Tagesanbruch an.)"
+	],
+	"besondere_verwendungen": "Wird oft verwendet, um eine führende oder vorrangige Position oder Reihenfolge zu betonen."
+},
+{
+	"wortart": "distributivzahl",
+	"wort": "bini",
+	"phonetik": "ˈbiː.ni",
+	"bedeutungen": ["je zwei", "zwei und zwei"],
+	"gebrauch": "Distributivzahl, verwendet zur Angabe der Verteilung von Dingen in Gruppen",
+	"deklinationen":
+	{
+		"maskulinum":
+		{
+			"singular":
+			{
+				// Singularformen sind nicht anwendbar für Distributivzahlen
+			},
+			"plural":
+			{
+				"nominativ": "bini",
+				"genitiv": "binorum",
+				"dativ": "binis",
+				"akkusativ": "binos",
+				"ablativ": "binis"
+			}
+		},
+		"femininum":
+		{
+			"singular":
+			{
+				// Singularformen sind nicht anwendbar für Distributivzahlen
+			},
+			"plural":
+			{
+				"nominativ": "binae",
+				"genitiv": "binarum",
+				"dativ": "binis",
+				"akkusativ": "binas",
+				"ablativ": "binis"
+			}
+		},
+		"neutrum":
+		{
+			"singular":
+			{
+				// Singularformen sind nicht anwendbar für Distributivzahlen
+			},
+			"plural":
+			{
+				"nominativ": "bina",
+				"genitiv": "binorum",
+				"dativ": "binis",
+				"akkusativ": "bina",
+				"ablativ": "binis"
+			}
+		}
+	},
+	"beispielsaetze":
+	[
+		"Bini milites ad portam stant. (Je zwei Soldaten stehen am Tor.)",
+		"Legati binae gentes visitaverunt. (Die Gesandten besuchen je zwei Völker.)"
+	],
+	"besondere_verwendungen": "Wird oft verwendet, um die Aufteilung oder Gruppierung von Dingen oder Personen anzugeben."
+},
+{
+    "wortart": "partikel",
+    "wort": "ne",
+    "phonetik": "ne",
+    "bedeutungen": ["damit nicht", "um zu verhindern, dass", "ob"],
+    "gebrauch": {
+        "konjunktiv": "Leitet Nebensätze ein, oft in der Bedeutung von 'damit nicht' oder 'um zu verhindern, dass'.",
+        "indirekte_frage": "Verwendet in indirekten Fragen, in der Bedeutung von 'ob'.",
+        "verneinung": "In Verbindung mit bestimmten Verben bildet 'ne' eine Verneinung."
+    },
+    "beispielsaetze": [
+        "Cave ne cadat. (Hüte dich, damit er nicht fällt.)",
+        "Rogavit ne venirem. (Er/sie fragte, ob ich kommen würde.)",
+        "Noli me tangere, ne contamineris. (Berühre mich nicht, damit du nicht befleckt wirst.)"
+    ],
+    "besondere_verwendungen": {
+        "ne... quidem": "Wird verwendet, um 'nicht einmal' auszudrücken.",
+        "ne... an": "In direkten Fragen, um Alternativen zu bieten ('ob... oder')."
+    },
+    "kombinationen": {
+        "neque": "Kombiniert mit 'que' wird es zu 'neque', was 'und nicht' bedeutet.",
+        "nec": "Eine alternative Form von 'neque', ebenfalls 'und nicht'."
+    }
+},
+{
+	"wortart": "nomen",
+	"wort": "luna",
+	"phonetik": "ˈluː.na",
+	"genitiv": "lunae",
+	"geschlecht": "femininum",
+	"deklination":
+	{
+		"singular":
+		{
+			"nominativ": "luna",
+			"genitiv": "lunae",
+			"dativ": "lunae",
+			"akkusativ": "lunam",
+			"ablativ": "luna"
+		},
+		"plural":
+		{
+			"nominativ": "lunae",
+			"genitiv": "lunarum",
+			"dativ": "lunis",
+			"akkusativ": "lunas",
+			"ablativ": "lunis"
+		}
+	},
+	"bedeutungen": ["Mond"],
+	"beispielsaetze":
+	[
+		"Luna plena nocte splendet. (Der Vollmond leuchtet in der Nacht.)",
+		"Navigantes lunam observabant. (Die Seefahrer beobachten den Mond.)"
+	],
+	"synonyme": ["satelles", "lumina noctis"],
+	"etymologie": "Vom lateinischen 'luna', abgeleitet von der älteren Form 'lucna',\n was auf das lateinische Wort 'lux' (Licht) zurückgeht.",
+	"verwendungshinweise": "Wird oft in der Poesie verwendet, um die Nacht oder nächtliche Schönheit zu beschreiben.\n Symbolisch steht 'luna' für Veränderlichkeit und die weibliche Göttin."
+},
+{
+	"wortart": "verb",
+	"wort": "scribere",
+	"phonetik": "ˈskriː.be.re",
+	"infinitiv": "scribere",
+	"partizipien":
+	{
+		"aktiv": "scribens",
+		"passiv": "scriptus"
+	},
+	"konjugation":
+	{
+		"praesens_indikativ":
+		{
+			"ich": "scribo",
+			"du": "scribis",
+			"er_sie_es": "scribit",
+			"wir": "scribimus",
+			"ihr": "scribitis",
+			"sie": "scribunt"
+		},
+		"imperfekt_indikativ":
+		{
+			"ich": "scribebam",
+			"du": "scribebas",
+			"er_sie_es": "scribebat",
+			"wir": "scribebamus",
+			"ihr": "scribebatis",
+			"sie": "scribebant"
+		},
+		"futur_i_indikativ":
+		{
+			"ich": "scribam",
+			"du": "scribes",
+			"er_sie_es": "scribet",
+			"wir": "scribemus",
+			"ihr": "scribetis",
+			"sie": "scribent"
+		},
+		"perfekt_indikativ":
+		{
+			"ich": "scripsi",
+			"du": "scripsisti",
+			"er_sie_es": "scripsit",
+			"wir": "scripsimus",
+			"ihr": "scripsistis",
+			"sie": "scripserunt"
+		},
+		"plusquamperfekt_indikativ":
+		{
+			"ich": "scripseram",
+			"du": "scripseras",
+			"er_sie_es": "scripserat",
+			"wir": "scripseramus",
+			"ihr": "Scripseratis",
+			"sie": "scripserant"
+		},
+		"futur_ii_indikativ":
+		{
+			"ich": "scripsero",
+			"du": "scripseris",
+			"er_sie_es": "scripserit",
+			"wir": "scripserimus",
+			"ihr": "scripseritis",
+			"sie": "scripserint"
+		},
+		"imperativ":
+		{
+			"singular": "scribe",
+			"plural": "scribite"
+		},
+		"praesens_konjunktiv":
+		{
+			"ich": "scribam",
+			"du": "scribas",
+			"er_sie_es": "scribat",
+			"wir": "scribamus",
+			"ihr": "scribatis",
+			"sie": "scribant"
+		},
+		"imperfekt_konjunktiv":
+		{
+			"ich": "scriberem",
+			"du": "scriberes",
+			"er_sie_es": "scriberet",
+			"wir": "scriberemus",
+			"ihr": "scriberetis",
+			"sie": "scriberent"
+		},
+		"perfekt_konjunktiv":
+		{
+			"ich": "scripserim",
+			"du": "scripseris",
+			"er_sie_es": "scripserit",
+			"wir": "scripserimus",
+			"ihr": "scripseritis",
+			"sie": "scripserint"
+		},
+		"plusquamperfekt_konjunktiv":
+		{
+			"ich": "scripsissem",
+			"du": "scripsisses",
+			"er_sie_es": "scripsisset",
+			"wir": "scripsissemus",
+			"ihr": "scripsissetis",
+			"sie": "scripsissent"
+		}
+	},
+	"bedeutungen": ["schreiben", "verfassen", "zeichnen"],
+	"beispielsaetze":
+	[
+		"Epistulas Latinas scribere discimus. (Wir lernen, lateinische Briefe zu schreiben.)",
+		"Poeta carmina pulchra scripsit. (Der Dichter hat schöne Gedichte verfasst.)",
+		"Pictor scenas bellas scribit. (Der Maler zeichnet schöne Szenen.)"
+	],
+	"synonyme": ["exarare", "conscribere"],
+	"etymologie": "Vom lateinischen 'scribere', abgeleitet von der indoeuropäischen Wurzel *skreibh-,\n was 'ritzen' oder 'schreiben' bedeutet.",
+	"verwendungshinweise": "Wird in verschiedenen Kontexten verwendet, von formellen Schriften bis hin zu kreativen Werken."
+},
+{
+    "wortart": "adjektiv",
+    "wort": "magnus",
+    "phonetik": "ˈmag.nus",
+    "komparativ": "maior",
+    "superlativ": "maximus",
+    "deklination": {
+        "maskulinum": {
+            "singular": {
+                "nominativ": "magnus",
+                "genitiv": "magni",
+                "dativ": "magno",
+                "akkusativ": "magnum",
+                "ablativ": "magno"
+            },
+            "plural": {
+                "nominativ": "magni",
+                "genitiv": "magnorum",
+                "dativ": "magnis",
+                "akkusativ": "magnos",
+                "ablativ": "magnis"
+            }
+        },
+        "femininum": {
+            "singular": {
+                "nominativ": "magna",
+                "genitiv": "magnae",
+                "dativ": "magnae",
+                "akkusativ": "magnam",
+                "ablativ": "magna"
+            },
+            "plural": {
+                "nominativ": "magnae",
+                "genitiv": "magnarum",
+                "dativ": "magnis",
+                "akkusativ": "magnas",
+                "ablativ": "magnis"
+            }
+        },
+        "neutrum": {
+            "singular": {
+                "nominativ": "magnum",
+                "genitiv": "magni",
+                "dativ": "magno",
+                "akkusativ": "magnum",
+                "ablativ": "magno"
+            },
+            "plural": {
+                "nominativ": "magna",
+                "genitiv": "magnorum",
+                "dativ": "magnis",
+                "akkusativ": "magna",
+                "ablativ": "magnis"
+            }
+        }
+    },
+    "bedeutungen": ["groß", "bedeutend", "wichtig"],
+    "beispielsaetze": [
+        "Magnus imperator bellum vicit. (Der große Feldherr gewann den Krieg.)",
+        "Magna est vis amicitiae. (Groß ist die Kraft der Freundschaft.)"
+    ],
+    "synonyme": ["grandis", "amplus"],
+    "etymologie": "Vom lateinischen 'magnus', abgeleitet von der indoeuropäischen Wurzel *meg- ('groß').",
+    "verwendungshinweise": "Kann sowohl im wörtlichen Sinne für physische Größe als auch im übertragenen Sinne für Bedeutung oder Wichtigkeit verwendet werden."
+},
+{
+    "wortart": "adverb",
+    "wort": "cito",
+    "phonetik": "ˈkiː.to",
+    "bedeutungen": ["schnell", "rasch"],
+    "steigerungsformen": {
+        "komparativ": "citius",
+        "superlativ": "citissime"
+    },
+    "beispielsaetze": [
+        "Cito veni ad me. (Komm schnell zu mir.)",
+        "Cito discimus. (Wir lernen rasch.)"
+    ],
+    "synonyme": ["velociter", "rapidus"],
+    "antonyme": ["lente", "tardus"],
+    "etymologie": "Vom lateinischen 'cito', abgeleitet von der indoeuropäischen Wurzel *kei- ('sich bewegen', 'rasch').",
+    "verwendungshinweise": "Wird oft verwendet, um Geschwindigkeit oder Eile in Handlungen oder Entscheidungen zu betonen.",
+    "kulturelle_referenzen": "Häufig in literarischen Werken zu finden, um Dringlichkeit oder schnelles Handeln zu beschreiben.",
+    "historische_verwendung": "Im klassischen Latein oft in Kontexten der Eile oder schnellen Bewegung verwendet."
+},
+{
+    "wortart": "pronomen",
+    "wort": "ille",
+    "phonetik": "ˈil.le",
+    "geschlecht": "maskulinum, femininum, neutrum",
+    "deklination": {
+        "maskulinum": {
+            "singular": {
+                "nominativ": "ille",
+                "genitiv": "illius",
+                "dativ": "illi",
+                "akkusativ": "illum",
+                "ablativ": "illo"
+            },
+            "plural": {
+                "nominativ": "illi",
+                "genitiv": "illorum",
+                "dativ": "illis",
+                "akkusativ": "illos",
+                "ablativ": "illis"
+            }
+        },
+        "femininum": {
+            "singular": {
+                "nominativ": "illa",
+                "genitiv": "illius",
+                "dativ": "illae",
+                "akkusativ": "illam",
+                "ablativ": "illa"
+            },
+            "plural": {
+                "nominativ": "illae",
+                "genitiv": "illarum",
+                "dativ": "illis",
+                "akkusativ": "illas",
+                "ablativ": "illis"
+            }
+        },
+        "neutrum": {
+            "singular": {
+                "nominativ": "illud",
+                "genitiv": "illius",
+                "dativ": "illo",
+                "akkusativ": "illud",
+                "ablativ": "illo"
+            },
+            "plural": {
+                "nominativ": "illa",
+                "genitiv": "illorum",
+                "dativ": "illis",
+                "akkusativ": "illa",
+                "ablativ": "illis"
+            }
+        }
+    },
+    "bedeutungen": ["jener", "jene", "jenes"],
+    "beispielsaetze": [
+        "Ille vir est fortis. (Jener Mann ist stark.)",
+        "Illa domus est antiqua. (Jenes Haus ist alt.)",
+        "Illud tempus erat difficile. (Jene Zeit war schwierig.)"
+    ],
+    "etymologie": "Vom lateinischen 'ille', möglicherweise verwandt mit dem altgriechischen ἐκεῖνος (ekeinos, 'jener').",
+    "verwendungshinweise": "Wird verwendet, um auf etwas Bestimmtes, oft bereits Erwähntes oder Fernes, hinzuweisen. Kann auch kontrastiv oder demonstrativ eingesetzt werden."
+},
+{
+    "wortart": "präposition",
+    "wort": "sub",
+    "phonetik": "sub",
+    "bedeutungen": ["unter", "unterhalb"],
+    "gebrauch": {
+        "mit_ablativ": {
+            "bedeutung": "Unter, im Sinne von 'direkt darunter befindlich', verwendet für statische Verhältnisse.",
+            "beispiel": "Sub arbore sedebat. (Er saß unter einem Baum.)"
+        },
+        "mit_akkusativ": {
+            "bedeutung": "Unter, im Sinne einer Bewegung hin zu einem Punkt unterhalb von etwas, verwendet für dynamische Verhältnisse.",
+            "beispiel": "Sub montem venit. (Er kam zu dem Berg hinunter.)"
+        }
+    },
+    "beispielsaetze": [
+        "Sub terra sunt multae divitiae. (Unter der Erde gibt es viele Schätze.)",
+        "Milites sub muro positi sunt. (Die Soldaten wurden unter der Mauer positioniert.)"
+    ],
+    "etymologie": "Vom lateinischen 'sub', abgeleitet von der indoeuropäischen Wurzel *upo- ('unter').",
+    "verwendungshinweise": "Wird sowohl in räumlichen Kontexten (z.B. geografische Lage) als auch in übertragenem Sinne (z.B. Unterordnung) verwendet.",
+    "historische_verwendung": "Häufig in römischen Texten verwendet, um räumliche Beziehungen und hierarchische Strukturen zu beschreiben."
+},
+{
+    "wortart": "konjunktion",
+    "wort": "sed",
+    "phonetik": "sed",
+    "bedeutungen": ["aber", "jedoch", "sondern"],
+    "gebrauch": "Verwendet, um einen Gegensatz oder eine Einschränkung zum vorherigen Satzteil anzugeben.",
+    "beispielsaetze": [
+        "Volebat venire, sed impediebatur. (Er wollte kommen, aber er wurde gehindert.)",
+        "Non solum sapientes, sed etiam stulti errare possunt. (Nicht nur Weise, sondern auch Narren können sich irren.)"
+    ],
+    "etymologie": "Vom lateinischen 'sed', verwandt mit dem altgriechischen ἀλλά (allá, 'aber').",
+    "verwendungshinweise": "Wird häufig in argumentativen und erzählenden Texten verwendet, um Kontraste und alternative Szenarien zu verdeutlichen.",
+    "kulturelle_referenzen": "Häufig in der römischen Rhetorik und Literatur anzutreffen, um Wendepunkte oder Gegensätze zu betonen.",
+    "historische_verwendung": "Eine der am häufigsten verwendeten Konjunktionen im klassischen Latein, oft in der juristischen und philosophischen Literatur."
+},
+{
+    "wortart": "interjektion",
+    "wort": "vae",
+    "phonetik": "ˈwae",
+    "bedeutungen": ["wehe", "Ach"],
+    "gebrauch": "Ausdruck von Kummer, Leid, Bedauern oder als Warnung.",
+    "beispielsaetze": [
+        "Vae victis! (Wehe den Besiegten!)",
+        "Vae mihi, quia peccavi! (Wehe mir, denn ich habe gesündigt!)"
+    ],
+    "etymologie": "Vom lateinischen 'vae', vermutlich verwandt mit dem altgriechischen οὐαί (ouaí, 'wehe').",
+    "verwendungshinweise": "Häufig in dramatischen oder poetischen Kontexten verwendet, um starke emotionale Reaktionen zu betonen.",
+    "kulturelle_referenzen": "Wird in vielen klassischen literarischen Werken und historischen Texten verwendet, um dramatische Momente hervorzuheben.",
+    "historische_verwendung": "Eine gängige Interjektion in der römischen Literatur, oft in der Tragödie und in rhetorischen Werken."
+},
+{
+    "wortart": "kardinalzahl",
+    "wort": "decem",
+    "phonetik": "ˈde.kem",
+    "bedeutungen": ["zehn"],
+    "gebrauch": "Verwendet zur Quantifizierung oder Angabe einer Menge von zehn Einheiten.",
+    "beispielsaetze": [
+        "Decem homines aderant. (Zehn Männer waren anwesend.)",
+        "Decem annos natus sum. (Ich bin zehn Jahre alt.)"
+    ],
+    "etymologie": "Vom lateinischen 'decem', abgeleitet von der indoeuropäischen Wurzel *dekm̥, was 'zehn' bedeutet.",
+    "verwendungshinweise": "Wird in verschiedenen Kontexten zur Angabe einer Menge oder Zählung verwendet, von praktischen Alltagszahlen bis zu symbolischen und literarischen Verwendungen.",
+    "kulturelle_referenzen": "Häufig in historischen, mathematischen und astronomischen Kontexten sowie in der Literatur verwendet.",
+    "historische_verwendung": "Eine der Grundzahlen im römischen Zahlensystem, die in einer Vielzahl von Kontexten eingesetzt wird."
+},
+{
+    "wortart": "ordinalzahl",
+    "wort": "quintus",
+    "phonetik": "ˈkʷɪn.tʊs",
+    "bedeutungen": ["fünfter"],
+    "deklination": {
+        "maskulinum": {
+            "singular": {
+                "nominativ": "quintus",
+                "genitiv": "quinti",
+                "dativ": "quinto",
+                "akkusativ": "quintum",
+                "ablativ": "quinto"
+            },
+            "plural": {
+                "nominativ": "quinti",
+                "genitiv": "quintorum",
+                "dativ": "quintis",
+                "akkusativ": "quintos",
+                "ablativ": "quintis"
+            }
+        },
+        "femininum": {
+            "singular": {
+                "nominativ": "quinta",
+                "genitiv": "quintae",
+                "dativ": "quintae",
+                "akkusativ": "quintam",
+                "ablativ": "quinta"
+            },
+            "plural": {
+                "nominativ": "quintae",
+                "genitiv": "quintarum",
+                "dativ": "quintis",
+                "akkusativ": "quintas",
+                "ablativ": "quintis"
+            }
+        },
+        "neutrum": {
+            "singular": {
+                "nominativ": "quintum",
+                "genitiv": "quinti",
+                "dativ": "quinto",
+                "akkusativ": "quintum",
+                "ablativ": "quinto"
+            },
+            "plural": {
+                "nominativ": "quinta",
+                "genitiv": "quintorum",
+                "dativ": "quintis",
+                "akkusativ": "quinta",
+                "ablativ": "quintis"
+            }
+        }
+    },
+    "beispielsaetze": [
+        "Quintus mensis anni est Maius. (Der fünfte Monat des Jahres ist Mai.)",
+        "Quintus liber Horatii multas fabulas continet. (Das fünfte Buch von Horaz enthält viele Geschichten.)"
+    ],
+    "etymologie": "Vom lateinischen 'quintus', abgeleitet von 'quinque' (fünf).",
+    "verwendungshinweise": "Wird verwendet, um die Reihenfolge oder Position in einer Sequenz anzugeben, wie in Daten, Aufzählungen oder in wissenschaftlichen und literarischen Kontexten."
+},
+{
+    "wortart": "distributivzahl",
+    "wort": "terni",
+    "phonetik": "ˈter.ni",
+    "bedeutungen": ["je drei", "drei und drei"],
+    "gebrauch": "Verwendet, um anzugeben, dass etwas in Gruppen oder Paaren von je drei vorkommt.",
+    "beispielsaetze": [
+        "Terni libri in mensa sunt. (Je drei Bücher sind auf dem Tisch.)",
+        "Terni equi in agro currunt. (Je drei Pferde laufen auf dem Feld.)"
+    ],
+    "etymologie": "Vom lateinischen 'terni', abgeleitet von 'tres' (drei).",
+    "verwendungshinweise": "Wird oft in Kontexten verwendet, um die Verteilung oder Gruppierung von Dingen oder Personen in Dreiergruppen zu betonen.",
+    "kulturelle_referenzen": "Kann in literarischen und poetischen Werken verwendet werden, um Harmonie, Gleichgewicht oder rhythmische Muster zu betonen.",
+    "historische_verwendung": "Verwendung in historischen Texten für Aufzählungen, Zählungen und die Beschreibung von Gruppen."
+},
+{
+    "wortart": "partikel",
+    "wort": "enim",
+    "phonetik": "ˈe.nim",
+    "bedeutungen": ["denn", "nämlich"],
+    "gebrauch": "Wird verwendet, um einen Grund, eine Erklärung oder eine Betonung einzuführen.",
+    "beispielsaetze": [
+        "Non possum venire, enim occupatus sum. (Ich kann nicht kommen, denn ich bin beschäftigt.)",
+        "Id verum est, enim probatum est. (Das ist wahr, denn es wurde bewiesen.)"
+    ],
+    "etymologie": "Vom lateinischen 'enim', möglicherweise verwandt mit dem griechischen εἰμί (eimi, 'ich bin').",
+    "verwendungshinweise": "Häufig in argumentativen Kontexten verwendet, um eine Begründung oder eine logische Folge darzustellen. Nicht am Satzanfang verwendet.",
+    "historische_verwendung": "Ein gängiger Partikel in der lateinischen Prosa, besonders in philosophischen, juristischen und rhetorischen Texten."
+},
+{
+    "wortart": "nomen",
+    "wort": "templum",
+    "phonetik": "ˈtem.plum",
+    "genitiv": "templi",
+    "geschlecht": "neutrum",
+    "deklination": {
+        "singular": {
+            "nominativ": "templum",
+            "genitiv": "templi",
+            "dativ": "templo",
+            "akkusativ": "templum",
+            "ablativ": "templo"
+        },
+        "plural": {
+            "nominativ": "templa",
+            "genitiv": "templorum",
+            "dativ": "templis",
+            "akkusativ": "templa",
+            "ablativ": "templis"
+        }
+    },
+    "bedeutungen": ["Tempel", "geweihter Platz"],
+    "beispielsaetze": [
+        "Romae multa templa sunt. (In Rom gibt es viele Tempel.)",
+        "Templum Apollinis Delphis erat. (Der Tempel des Apollon war in Delphi.)"
+    ],
+    "etymologie": "Vom lateinischen 'templum', abgeleitet von einer indoeuropäischen Wurzel, die 'abgeschnittener Raum' oder 'Geländeabschnitt' bedeutet.",
+    "verwendungshinweise": "Wird verwendet, um auf religiöse Gebäude oder Orte der Verehrung hinzuweisen. In der römischen Architektur bezieht es sich oft auf prächtige öffentliche Gebäude.",
+    "kulturelle_referenzen": "Tempel spielen eine zentrale Rolle in der römischen Religion und Kultur, oft als Orte der Verehrung und des öffentlichen Lebens."
+},
+{
+    "wortart": "verb",
+    "wort": "ambulare",
+    "phonetik": "amˈbuː.laː.re",
+    "infinitiv": "ambulare",
+    "partizipien": {
+        "aktiv": "ambulans",
+        "passiv": "ambulatus"
+    },
+    "konjugation": {
+        "praesens_indikativ": {
+            "ich": "ambulo",
+            "du": "ambulas",
+            "er_sie_es": "ambulat",
+            "wir": "ambulamus",
+            "ihr": "ambulatis",
+            "sie": "ambulant"
+        },
+        "imperfekt_indikativ": {
+            "ich": "ambulabam",
+            "du": "ambulabas",
+            "er_sie_es": "ambulabat",
+            "wir": "ambulabamus",
+            "ihr": "ambulabatis",
+            "sie": "ambulabant"
+        },
+        "futur_i_indikativ": {
+            "ich": "ambulabo",
+            "du": "ambulabis",
+            "er_sie_es": "ambulabit",
+            "wir": "ambulabimus",
+            "ihr": "ambulabitis",
+            "sie": "ambulabunt"
+        },
+        "perfekt_indikativ": {
+            "ich": "ambulavi",
+            "du": "ambulavisti",
+            "er_sie_es": "ambulavit",
+            "wir": "ambulavimus",
+            "ihr": "ambulavistis",
+            "sie": "ambulaverunt"
+        },
+        "plusquamperfekt_indikativ": {
+            "ich": "ambulaveram",
+            "du": "ambulaveras",
+            "er_sie_es": "ambulaverat",
+            "wir": "ambulaveramus",
+            "ihr": "ambulaveratis",
+            "sie": "ambulaverant"
+        },
+        "futur_ii_indikativ": {
+            "ich": "ambulavero",
+            "du": "ambulaveris",
+            "er_sie_es": "ambulaverit",
+            "wir": "ambulaverimus",
+            "ihr": "ambulaveritis",
+            "sie": "ambulaverint"
+        },
+        "imperativ": {
+            "singular": "ambula",
+            "plural": "ambulate"
+        },
+        "praesens_konjunktiv": {
+            "ich": "ambulem",
+            "du": "ambules",
+            "er_sie_es": "ambulet",
+            "wir": "ambulemus",
+            "ihr": "ambuletis",
+            "sie": "ambulent"
+        },
+        "imperfekt_konjunktiv": {
+            "ich": "ambularem",
+            "du": "ambulares",
+            "er_sie_es": "ambularet",
+            "wir": "ambularemus",
+            "ihr": "ambularetis",
+            "sie": "ambularent"
+        },
+        "perfekt_konjunktiv": {
+            "ich": "ambulaverim",
+            "du": "ambulaveris",
+            "er_sie_es": "ambulaverit",
+            "wir": "ambulaverimus",
+            "ihr": "ambulaveritis",
+            "sie": "ambulaverint"
+        },
+        "plusquamperfekt_konjunktiv": {
+            "ich": "ambulavissem",
+            "du": "ambulavisses",
+            "er_sie_es": "ambulavisset",
+            "wir": "ambulavissemus",
+            "ihr": "ambulavissetis",
+            "sie": "ambulavissent"
+        }
+    },
+    "bedeutungen": ["gehen", "spazieren", "wandeln"],
+    "beispielsaetze": [
+        "Saepe in horto ambulamus. (Wir spazieren oft im Garten.)",
+        "Philosophus ambulando cogitat. (Der Philosoph denkt beim Gehen nach.)"
+    ],
+    "synonyme": ["gradior", "vagor"],
+    "etymologie": "Vom lateinischen 'ambulare', abgeleitet von einer indoeuropäischen Wurzel, die 'wandern' oder 'umhergehen' bedeutet.",
+    "verwendungshinweise": "Wird oft in Kontexten der Fortbewegung oder des Spaziergangs verwendet, sowohl wörtlich als auch metaphorisch."
+},
+{
+    "wortart": "adjektiv",
+    "wort": "altus",
+    "phonetik": "ˈal.tus",
+    "komparativ": "altior",
+    "superlativ": "altissimus",
+    "deklination": {
+        "maskulinum": {
+            "singular": {
+                "nominativ": "altus",
+                "genitiv": "alti",
+                "dativ": "alto",
+                "akkusativ": "altum",
+                "ablativ": "alto"
+            },
+            "plural": {
+                "nominativ": "alti",
+                "genitiv": "altorum",
+                "dativ": "altis",
+                "akkusativ": "altos",
+                "ablativ": "altis"
+            }
+        },
+        "femininum": {
+            "singular": {
+                "nominativ": "alta",
+                "genitiv": "altae",
+                "dativ": "altae",
+                "akkusativ": "altam",
+                "ablativ": "alta"
+            },
+            "plural": {
+                "nominativ": "altae",
+                "genitiv": "altarum",
+                "dativ": "altis",
+                "akkusativ": "altas",
+                "ablativ": "altis"
+            }
+        },
+        "neutrum": {
+            "singular": {
+                "nominativ": "altum",
+                "genitiv": "alti",
+                "dativ": "alto",
+                "akkusativ": "altum",
+                "ablativ": "alto"
+            },
+            "plural": {
+                "nominativ": "alta",
+                "genitiv": "altorum",
+                "dativ": "altis",
+                "akkusativ": "alta",
+                "ablativ": "altis"
+            }
+        }
+    },
+    "bedeutungen": ["hoch", "tief"],
+    "beispielsaetze": [
+        "Arbor alta in silva stetit. (Ein hoher Baum stand im Wald.)",
+        "Mare altum est terribile. (Das tiefe Meer ist furchterregend.)"
+    ],
+    "etymologie": "Vom lateinischen 'altus', abgeleitet von der indoeuropäischen Wurzel *al- ('wachsen', 'nähren').",
+    "verwendungshinweise": "Wird verwendet, um physische Höhe oder Tiefe zu beschreiben, sowohl im wörtlichen als auch im übertragenen Sinne.",
+    "kulturelle_referenzen": "Häufig in literarischen Werken verwendet, um majestätische oder beeindruckende Naturszenen zu beschreiben."
+},
+{
+    "wortart": "adverb",
+    "wort": "saepe",
+    "phonetik": "ˈsae.pe",
+    "bedeutungen": ["oft", "häufig"],
+    "beispielsaetze": [
+        "Saepe in horto ambulat. (Er/Sie spaziert oft im Garten.)",
+        "Saepe legimus et scribimus. (Wir lesen und schreiben oft.)"
+    ],
+    "etymologie": "Vom lateinischen 'saepe', möglicherweise verwandt mit dem griechischen σαφής (saphēs, 'klar', 'deutlich').",
+    "verwendungshinweise": "Wird verwendet, um die Häufigkeit einer Handlung oder eines Ereignisses auszudrücken.",
+    "kulturelle_referenzen": "In literarischen und historischen Texten verwendet, um Routine, Gewohnheit oder regelmäßige Aktivitäten zu betonen."
+},
+{
+    "wortart": "pronomen",
+    "wort": "quis",
+    "phonetik": "kwɪs",
+    "bedeutungen": ["wer", "was"],
+    "deklination": {
+        "maskulinum": {
+            "singular": {
+                "nominativ": "quis",
+                "genitiv": "cuius",
+                "dativ": "cui",
+                "akkusativ": "quem",
+                "ablativ": "quo"
+            },
+            "plural": {
+                "nominativ": "qui",
+                "genitiv": "quorum",
+                "dativ": "quibus",
+                "akkusativ": "quos",
+                "ablativ": "quibus"
+            }
+        },
+        "femininum": {
+            "singular": {
+                "nominativ": "quis",
+                "genitiv": "cuius",
+                "dativ": "cui",
+                "akkusativ": "quam",
+                "ablativ": "qua"
+            },
+            "plural": {
+                "nominativ": "quae",
+                "genitiv": "quarum",
+                "dativ": "quibus",
+                "akkusativ": "quas",
+                "ablativ": "quibus"
+            }
+        },
+        "neutrum": {
+            "singular": {
+                "nominativ": "quid",
+                "genitiv": "cuius",
+                "dativ": "cui",
+                "akkusativ": "quid",
+                "ablativ": "quo"
+            },
+            "plural": {
+                "nominativ": "quae",
+                "genitiv": "quorum",
+                "dativ": "quibus",
+                "akkusativ": "quae",
+                "ablativ": "quibus"
+            }
+        }
+    },
+    "beispielsaetze": [
+        "Quis hoc fecit? (Wer hat das gemacht?)",
+        "Cui hoc donum dabis? (Wem wirst du dieses Geschenk geben?)",
+        "Quid in mente habes? (Was hast du im Sinn?)"
+    ],
+    "etymologie": "Vom lateinischen 'quis', abgeleitet von einer indoeuropäischen Wurzel *kwo-, die 'wer' oder 'was' bedeutet.",
+    "verwendungshinweise": "Wird in Fragen verwendet, um Personen oder Dinge zu identifizieren. 'Quis' wird oft in direkten Fragen verwendet, während 'qui' in indirekten Fragen eingesetzt wird."
+},
+{
+    "wortart": "präposition",
+    "wort": "cum",
+    "phonetik": "kum",
+    "bedeutungen": ["mit", "zusammen mit"],
+    "verwendung_mit_kasus": "Ablativ",
+    "beispielsaetze": [
+        "Cum amicis cenavit. (Er hat mit Freunden zu Abend gegessen.)",
+        "Liber cum imaginibus. (Ein Buch mit Bildern.)"
+    ],
+    "etymologie": "Vom lateinischen 'cum', verwandt mit dem griechischen 'σύν' (syn, 'mit').",
+    "verwendungshinweise": "Wird verwendet, um Begleitung, Vereinigung oder das Vorhandensein zusammen mit etwas anderem auszudrücken.",
+    "kulturelle_referenzen": "Häufig in literarischen, historischen und rechtlichen Texten verwendet, um Beziehungen oder Gemeinsamkeiten zu betonen."
+},
+{
+    "wortart": "konjunktion",
+    "wort": "autem",
+    "phonetik": "au-tem",
+    "bedeutungen": ["jedoch", "hingegen", "aber"],
+    "gebrauch": "Wird verwendet, um einen Kontrast oder eine Einschränkung in einem Satz auszudrücken.",
+    "beispielsaetze": [
+        "Is puer diligentissimus est, autem puella pigra est. (Der Junge ist sehr fleißig, hingegen ist das Mädchen faul.)",
+        "Hic liber pulcher est, autem ille est carus. (Dieses Buch ist schön, jedoch ist jenes teuer.)"
+    ],
+    "synonyme": ["sed", "vero"],
+    "besondere_verwendungen": "Kann auch verwendet werden, um einen Gedanken einzuführen oder zu betonen."
+}
+// Reihenfolge
+// Nomen
+// Verben
+// Adjektive
+// Adverbien
+// Pronomen
+// Präpositionen
+// Konjunktionen
+// Artikel (Gibt es nicht in Latein. Bereits dokumentiert)
+// Interjektionen
+// Kardinalzahlen
+// Ordinalzahlen
+// Distributivzahlen
+// Partikel
