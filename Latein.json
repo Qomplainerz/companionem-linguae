@@ -2,74 +2,256 @@
   "0": {
     "wortart": "kardinalzahl",
     "römisches_zahlzeichen": "N/A",
-    "wort": "nulla",
-    "phonetik": "ˈnʊl.la",
-    "bedeutungen": ["null"],
-    "gebrauch": "Wird selten verwendet, da die Römer kein Konzept für Null hatten.",
-    "beispielsaetze": ["Nulla domus est. (Es gibt kein Haus.)"],
-    "besondere_verwendungen": "Symbolisch oder in abstrakten Konzepten verwendet."
-  },
-  "1": {
-    "wortart": "kardinalzahl",
-    "römisches_zahlzeichen": "I",
-    "wort": "ūnus, ūna, ūnum",
-    "phonetik": "ˈuː.nus, ˈuː.na, ˈuː.num",
-    "bedeutungen": ["eins"],
-    "gebrauch": "Wird dekliniert wie ein Adjektiv der a-/o-Deklination.",
-    "deklinationen": {
-      "maskulinum": {"nominativ": "ūnus", "genitiv": "ūnīus", "dativ": "ūnī", "akkusativ": "ūnum", "ablativ": "ūnō"},
-      "femininum": {"nominativ": "ūna", "genitiv": "ūnae", "dativ": "ūnae", "akkusativ": "ūnam", "ablativ": "ūnā"},
-      "neutrum": {"nominativ": "ūnum", "genitiv": "ūnīus", "dativ": "ūnō", "akkusativ": "ūnum", "ablativ": "ūnō"}
+    "wort": {
+      "maskulinum_neutrum": "nullus",
+      "femininum": "nulla"
     },
-    "beispielsaetze": ["Unus homo venit. (Ein Mann kam.)"],
-    "besondere_verwendungen": "Verwendet für Zählung und Hervorhebung eines einzelnen Elements."
-  },
+    "phonetik": {
+      "maskulinum_neutrum": "ˈnʊl.lʊs",
+      "femininum": "ˈnʊl.la"
+    },
+    "bedeutungen": ["null"],
+    "gebrauch": "In der Mathematik oft synonym verwendet. 'Nullus' wird für männliche/neutrale Substantive verwendet, 'nulla' für weibliche.",
+    "beispielsaetze": [
+      "Nullus homo est in aula. (Es ist niemand im Saal.)",
+      "Nulla mulier est in aula. (Es ist keine Frau im Saal.)",
+      "Nullus numerus est maior quam infinitus. (Keine Zahl ist größer als unendlich.)",
+      "Nulla res est impossibilis. (Nichts ist unmöglich.)"
+    ],
+    "besondere_verwendungen": "Symbolisch oder in abstrakten Konzepten verwendet.",
+    "deklinationen": {
+      "maskulinum_neutrum": {
+        "singular": {
+          "nominativ": ["nullus", "nullum"],
+          "genitiv": "nullius",
+          "dativ": "nulli",
+          "akkusativ": ["nullum", "nullum"],
+          "ablativ": "nullo"
+        },
+        "plural": {
+          "nominativ": ["nulli", "nulla"],
+          "genitiv": "nullorum",
+          "dativ": "nullis",
+          "akkusativ": ["nullos", "nulla"],
+          "ablativ": "nullis"
+        }
+      },
+      "femininum": {
+        "singular": {
+          "nominativ": "nulla",
+          "genitiv": "nullius",
+          "dativ": "nulli",
+          "akkusativ": "nullam",
+          "ablativ": "nulla"
+        },
+        "plural": {
+          "nominativ": "nullae",
+          "genitiv": "nullarum",
+          "dativ": "nullis",
+          "akkusativ": "nullas",
+          "ablativ": "nullis"
+        }
+      }
+    }
+  }
+},
+{
   "2": {
     "wortart": "kardinalzahl",
     "römisches_zahlzeichen": "II",
     "wort": "duo",
-    "phonetik": "ˈdu.oː",
+    "phonetik": "ˈduː.oː",
     "bedeutungen": ["zwei"],
-    "gebrauch": "Hat eine eigene Deklination.",
+    "gebrauch": "Verwendet für männliche, weibliche und neutrale Substantive im Plural. Passt sich dem Geschlecht der Substantive an.",
+    "beispielsaetze": [
+      "Hic sunt duo libri. (Hier sind zwei Bücher.)",
+      "Duae mulieres currunt in campo. (Zwei Frauen laufen auf dem Feld.)",
+      "In mensa sunt duo pocula. (Auf dem Tisch sind zwei Becher.)",
+      "Duo plus duo sunt quattuor. (Zwei plus zwei sind vier.)"
+    ],
+    "besondere_verwendungen": "Verwendet für abstrakte Konzepte wie 'das zweite' oder 'der zweite'.",
     "deklinationen": {
-      "nominativ": "duo", "genitiv": "duōrum", "dativ": "duōbus", "akkusativ": "duōs", "ablativ": "duōbus"
-    },
-    "beispielsaetze": ["Duo canes vidi. (Ich sah zwei Hunde.)"],
-    "besondere_verwendungen": "Verwendet für Zählung und Paarbildung."
-  },
+      "maskulinum_neutrum": {
+        "plural": {
+          "nominativ": "duo",
+          "genitiv": "duorum",
+          "dativ": "duobus",
+          "akkusativ": "duos",
+          "ablativ": "duobus"
+        }
+      },
+      "femininum": {
+        "plural": {
+          "nominativ": "duae",
+          "genitiv": "duarum",
+          "dativ": "duabus",
+          "akkusativ": "duas",
+          "ablativ": "duabus"
+        }
+      }
+    }
+  }
+},
+{
   "3": {
     "wortart": "kardinalzahl",
     "römisches_zahlzeichen": "III",
-    "wort": "trēs, tria",
-    "phonetik": "trēs, ˈtri.a",
-    "bedeutungen": ["drei"],
-    "gebrauch": "Wird dekliniert wie ein Adjektiv der a-/o-Deklination.",
-    "deklinationen": {
-      "maskulinum_femininum": {"nominativ": "trēs", "genitiv": "trium", "dativ": "tribus", "akkusativ": "trēs", "ablativ": "tribus"},
-      "neutrum": {"nominativ": "tria", "genitiv": "trium", "dativ": "tribus", "akkusativ": "tria", "ablativ": "tribus"}
+    "wort": {
+      "maskulinum_femininum": "tres",
+      "neutrum": "tria"
     },
-    "beispielsaetze": ["Tres viri aderant. (Drei Männer waren anwesend.)"],
-    "besondere_verwendungen": "Verwendet für Zählung kleiner Gruppen."
-  },
+    "phonetik": {
+      "maskulinum_femininum": "ˈtrɛs",
+      "neutrum": "ˈtrɪ.a"
+    },
+    "bedeutungen": ["drei"],
+    "gebrauch": "Verwendet für männliche und weibliche Substantive ('tres') sowie neutrale Substantive ('tria').",
+    "beispielsaetze": [
+      "Tres viri in agro sunt. (Drei Männer sind auf dem Feld.)",
+      "Tres feminae in horto laborant. (Drei Frauen arbeiten im Garten.)",
+      "Tria poma in mensa sunt. (Drei Äpfel sind auf dem Tisch.)",
+      "Tres plus duo sunt quinque. (Drei plus zwei sind fünf.)"
+    ],
+    "besondere_verwendungen": "Verwendet für abstrakte Konzepte wie 'das dritte' oder 'der dritte'.",
+    "deklinationen": {
+      "maskulinum_femininum": {
+        "plural": {
+          "nominativ": "tres",
+          "genitiv": "trium",
+          "dativ": "tribus",
+          "akkusativ": "tres",
+          "ablativ": "tribus"
+        }
+      },
+      "neutrum": {
+        "plural": {
+          "nominativ": "tria",
+          "genitiv": "trium",
+          "dativ": "tribus",
+          "akkusativ": "tria",
+          "ablativ": "tribus"
+        }
+      }
+    }
+  }
+},
+{
   "4": {
     "wortart": "kardinalzahl",
     "römisches_zahlzeichen": "IV",
     "wort": "quattuor",
     "phonetik": "ˈkwat.tu.or",
     "bedeutungen": ["vier"],
-    "gebrauch": "Wird nicht dekliniert.",
-    "beispielsaetze": ["Quattuor libri sunt in mensa. (Vier Bücher sind auf dem Tisch.)"],
-    "besondere_verwendungen": "Verwendet für Zählung."
-  },
+    "gebrauch": "Unveränderlich, wird für alle Geschlechter und Zahlen verwendet.",
+    "beispielsaetze": [
+      "Quattuor homines in domo sunt. (Vier Menschen sind im Haus.)",
+      "Quattuor libros lego. (Ich lese vier Bücher.)",
+      "In mensa quattuor pocula sunt. (Auf dem Tisch sind vier Becher.)",
+      "Quattuor plus tres sunt septem. (Vier plus drei sind sieben.)"
+    ],
+    "besondere_verwendungen": "Verwendet für konkrete und abstrakte Konzepte, beispielsweise für 'das vierte' oder 'der vierte'."
+  }
+},
+{
   "5": {
     "wortart": "kardinalzahl",
     "römisches_zahlzeichen": "V",
-    "wort": "quīnque",
-    "phonetik": "ˈkʷiːŋ.kʷe",
+    "wort": "quinque",
+    "phonetik": "ˈkʷɪŋ.kʷe",
     "bedeutungen": ["fünf"],
-    "gebrauch": "Wird nicht dekliniert.",
-    "beispielsaetze": ["Quinque dies feriae sunt. (Es sind fünf Tage Urlaub.)"],
-    "besondere_verwendungen": "Verwendet für Zählung."
+    "gebrauch": "Unveränderlich, wird für alle Geschlechter und Zahlen verwendet.",
+    "beispielsaetze": [
+      "Quinque libros habeo. (Ich habe fünf Bücher.)",
+      "Quinque viri ad forum veniunt. (Fünf Männer kommen zum Marktplatz.)",
+      "In horto quinque flores sunt. (Im Garten sind fünf Blumen.)",
+      "Quinque plus duo sunt septem. (Fünf plus zwei sind sieben.)"
+    ],
+    "besondere_verwendungen": "Verwendet für konkrete und abstrakte Konzepte, beispielsweise für 'das fünfte' oder 'der fünfte'."
+  }
+},
+{
+  "6": {
+    "wortart": "kardinalzahl",
+    "römisches_zahlzeichen": "VI",
+    "wort": "sex",
+    "phonetik": "sɛks",
+    "bedeutungen": ["sechs"],
+    "gebrauch": "Unveränderlich, wird für alle Geschlechter und Zahlen verwendet.",
+    "beispielsaetze": [
+      "Sex dies sunt in hebdomade. (Es sind sechs Tage in der Woche.)",
+      "Sex libri super mensam sunt. (Sechs Bücher sind auf dem Tisch.)",
+      "Sex homines in conclavi sunt. (Sechs Menschen sind im Raum.)",
+      "Sex plus quattuor sunt decem. (Sechs plus vier sind zehn.)"
+    ],
+    "besondere_verwendungen": "Verwendet für konkrete und abstrakte Konzepte, beispielsweise für 'das sechste' oder 'der sechste'."
+  }
+},
+{
+  "7": {
+    "wortart": "kardinalzahl",
+    "römisches_zahlzeichen": "VII",
+    "wort": "septem",
+    "phonetik": "ˈsɛp.tɛm",
+    "bedeutungen": ["sieben"],
+    "gebrauch": "Unveränderlich, wird für alle Geschlechter und Zahlen verwendet.",
+    "beispielsaetze": [
+      "Septem dies sunt in hebdomade. (Es sind sieben Tage in einer Woche.)",
+      "Septem colores in arcu apparent. (Sieben Farben erscheinen im Regenbogen.)",
+      "Septem stellae in constellatione sunt. (Sieben Sterne sind in der Konstellation.)",
+      "Septem plus tres sunt decem. (Sieben plus drei sind zehn.)"
+    ],
+    "besondere_verwendungen": "Verwendet für konkrete und abstrakte Konzepte, beispielsweise für 'das siebte' oder 'der siebte'."
+  }
+},
+{
+  "8": {
+    "wortart": "kardinalzahl",
+    "römisches_zahlzeichen": "VIII",
+    "wort": "octo",
+    "phonetik": "ˈɔk.to",
+    "bedeutungen": ["acht"],
+    "gebrauch": "Unveränderlich, wird für alle Geschlechter und Zahlen verwendet.",
+    "beispielsaetze": [
+      "Octo anguli in octagono sunt. (Es sind acht Winkel in einem Oktagon.)",
+      "Octo pedes habet aranea. (Eine Spinne hat acht Beine.)",
+      "Octo menses sunt ante finem anni. (Acht Monate sind vor dem Jahresende.)",
+      "Octo plus duo sunt decem. (Acht plus zwei sind zehn.)"
+    ],
+    "besondere_verwendungen": "Verwendet für konkrete und abstrakte Konzepte, beispielsweise für 'das achte' oder 'der achte'."
+  }
+},
+{
+  "9": {
+    "wortart": "kardinalzahl",
+    "römisches_zahlzeichen": "IX",
+    "wort": "novem",
+    "phonetik": "ˈnoː.wɛm",
+    "bedeutungen": ["neun"],
+    "gebrauch": "Unveränderlich, wird für alle Geschlechter und Zahlen verwendet.",
+    "beispielsaetze": [
+      "Novem planetas in Systemate Solaris numeramus. (Wir zählen neun Planeten im Sonnensystem.)",
+      "Novem iudices in summo iudicio Americano sunt. (Es gibt neun Richter im obersten Gerichtshof der USA.)",
+      "Novem capitula in libro sunt. (Es gibt neun Kapitel im Buch.)",
+      "Novem plus unum sunt decem. (Neun plus eins sind zehn.)"
+    ],
+    "besondere_verwendungen": "Verwendet für konkrete und abstrakte Konzepte, beispielsweise für 'das neunte' oder 'der neunte'."
+  }
+},
+{
+  "10": {
+    "wortart": "kardinalzahl",
+    "römisches_zahlzeichen": "X",
+    "wort": "decem",
+    "phonetik": "ˈdeː.kɛm",
+    "bedeutungen": ["zehn"],
+    "gebrauch": "Unveränderlich, wird für alle Geschlechter und Zahlen verwendet.",
+    "beispielsaetze": [
+      "Decem digitos in manibus habemus. (Wir haben zehn Finger an den Händen.)",
+      "Decem annos in urbe habitavi. (Ich habe zehn Jahre in der Stadt gewohnt.)",
+      "Decem stellas in caelo vidi. (Ich sah zehn Sterne am Himmel.)",
+      "Decem minus quattuor sunt sex. (Zehn minus vier sind sechs.)"
+    ],
+    "besondere_verwendungen": "Verwendet für konkrete und abstrakte Konzepte, beispielsweise für 'das zehnte' oder 'der zehnte'."
   }
 }
 // Reihenfolge
