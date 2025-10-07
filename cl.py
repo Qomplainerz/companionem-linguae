@@ -58,9 +58,13 @@ CREATE TABLE IF NOT EXISTS usage_examples (
 )
 ''')
 
-# Insert headword
+# Insert headword discere
 
 cursor.execute("INSERT OR IGNORE INTO headwords VALUES (1, 'discere', 'to learn')")
+
+# Insert headwort amare
+
+cursor.execute("INSERT OR IGNORE INTO headwords VALUES (2, 'amare', 'to love')")
 
 # Insert conjugations
 
@@ -83,6 +87,24 @@ conjugations = [
     (16, 1, 'discemus', 'we will learn', 'future', 1, 'pl', 'indicative'),
     (17, 1, 'discetis', 'you will learn', 'future', 2, 'pl', 'indicative'),
     (18, 1, 'discent', 'they will learn', 'future', 3, 'pl', 'indicative'),
+    (19, 2, 'amabam', 'I used to love', 'imperfect', 1, 'sg', 'indicative'),
+    (20, 2, 'amabas', 'you used to love', 'imperfect', 2, 'sg', 'indicative'),
+    (21, 2, 'amabat', 'he/she/it used to love', 'imperfect', 3, 'sg', 'indicative'),
+    (22, 2, 'amabamus', 'we used to love', 'imperfect', 1, 'pl', 'indicative'),
+    (23, 2, 'amabatis', 'you used to love', 'imperfect', 2, 'pl', 'indicative'),
+    (24, 2, 'amabant', 'they used to love', 'imperfect', 3, 'pl', 'indicative'),
+    (25, 2, 'amavi', 'I loved', 'perfect', 1, 'sg', 'indicative'),
+    (26, 2, 'amavisti', 'you loved', 'perfect', 2, 'sg', 'indicative'),
+    (27, 2, 'amavit', 'he/she/it loved', 'perfect', 3, 'sg', 'indicative'),
+    (28, 2, 'amavimus', 'we loved', 'perfect', 1, 'pl', 'indicative'),
+    (29, 2, 'amavistis', 'you loved', 'perfect', 2, 'pl', 'indicative'),
+    (30, 2, 'amaverunt', 'they loved', 'perfect', 3, 'pl', 'indicative'),
+    (31, 2, 'amabo', 'I will love', 'future', 1, 'sg', 'indicative'),
+    (32, 2, 'amabis', 'you will love', 'future', 2, 'sg', 'indicative'),
+    (33, 2, 'amabit', 'he/she/it will love', 'future', 3, 'sg', 'indicative'),
+    (34, 2, 'amabimus', 'we will love', 'future', 1, 'pl', 'indicative'),
+    (35, 2, 'amabitis', 'you will love', 'future', 2, 'pl', 'indicative'),
+    (36, 2, 'amabunt', 'they will love', 'future', 3, 'pl', 'indicative'),
 ]
 
 cursor.executemany('''
@@ -95,15 +117,19 @@ VALUES (?, ?, ?, ?, ?, ?, ?, ?)
 
 cursor.execute("INSERT OR IGNORE INTO meanings VALUES (1, 1, 'discere', 'to learn', 'general')")
 cursor.execute("INSERT OR IGNORE INTO meanings VALUES (2, 1, 'discere', 'to study', 'academic')")
+cursor.execute("INSERT OR IGNORE INTO meanings VALUES (3, 2, 'amare', 'to love', 'general')")
+cursor.execute("INSERT OR IGNORE INTO meanings VALUES (4, 2, 'amare', 'to like', 'less intense affection')")
 
 # Insert usage examples
 
 cursor.execute("INSERT OR IGNORE INTO usage_examples VALUES (1, 1, 1, 'Latine discebam in schola', 'I used to learn Latin in school')")
 cursor.execute("INSERT OR IGNORE INTO usage_examples VALUES (2, 7, 1, 'Hodie Latine didici', 'Today I learned Latin')")
+cursor.execute("INSERT OR IGNORE INTO usage_examples VALUES (3, 19, 2, 'Rosam amabam', 'I used to love a rose')")
+cursor.execute("INSERT OR IGNORE INTO usage_examples VALUES (4, 25, 2, 'Te amavi', 'I loved you')")
 
 conn.commit()
 
-# Test: Query
+# Test: Search discere
 
 print("=== Test: Search 'discebam' ===")
 cursor.execute("SELECT lat, eng, tense, person, number FROM conjugations WHERE lat = 'discebam'")
@@ -127,6 +153,27 @@ cursor.execute("SELECT lat, eng FROM usage_examples")
 for row in cursor.fetchall():
     print(f"{row[0]} -> {row[1]}")
     
+# Test: Search amabam
+
+print("\n=== Test: Search 'amabam' ===")
+cursor.execute("SELECT lat, eng, tense, person, number FROM conjugations WHERE lat = 'amabam'")
+result = cursor.fetchone()
+print(f"{result[0]} = {result[1]} | Tense: {result[2]}, Person: {result[3]}, Number: {result[4]}\n")
+
+# Test: All forms of amare
+
+print("=== Test: All forms of 'amare' ===")
+cursor.execute("""
+SELECT lat, eng, tense, person, number 
+FROM conjugations 
+WHERE ref_headword_id = 2
+ORDER BY conjugation_id
+""")
+for row in cursor.fetchall():
+    print(f"{row[0]:15} = {row[1]:25} | {row[2]:10} {row[3]}/{row[4]}")
+
+# Close the database
+
 conn.close()
 print("\n Database created and tested successfully!")
 
