@@ -1,13 +1,31 @@
 # Companionem Linguae
-Companionem Linguae is an ultra large language model in early stages of development.
 
-We will start collecting proto-languages, language families, language branches, languages, etc. soon.
+**A specialized language model for marginalized and classical languages**
 
-https://companionem-linguae.000webhostapp.com/
+## Current Status
+Early development - proof of concept for Latin ↔ English dictionary
 
-Companionem Linguae is being reworked.
-I have uploaded a part of the new training data (Latein.json).
-Although English is the standard for international communication, 
-I decided to train the model with Latin and German first, 
-because these languages have many grammatical features the English language doesn't have, 
-but they could be useful for translations into French, Portuguese, Spanish, or other languages that have similar grammatical features.
+## Features (v0.1)
+- SQLite database with Latin verb conjugations
+- Rule-based lookup (Latin → English, English → Latin)
+- Grammatical metadata (tense, person, number, mood)
+- Usage examples
+
+## Roadmap
+- [ ] Expand vocabulary (100+ Latin words)
+- [ ] Add support for nouns, adjectives, adverbs
+- [ ] Implement n-gram language detection
+- [ ] Add support for: Marubo, other marginalized languages
+- [ ] Build simple chat interface (tkinter)
+- [ ] Integrate ML-based translation (for high-resource languages)
+
+## Why?
+Most NLP tools focus on major languages. This project aims to preserve and make accessible:
+- **Dead languages** (Latin, Ancient Greek)
+- **Marginalized languages** (Marubo, other indigenous languages)
+- **Hybrid approach:** Rule-based for low-resource, ML for high-resource
+
+## Collaboration
+Currently working with Claudio Marubo (native speaker) to collect Marubo language data.
+
+Contributions welcome!
