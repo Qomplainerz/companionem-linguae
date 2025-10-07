@@ -6,10 +6,11 @@
 Early development - proof of concept for Latin ↔ English dictionary
 
 ## Features (v0.1)
-- SQLite database with Latin verb conjugations
-- Rule-based lookup (Latin → English, English → Latin)
+Features (v0.1)
+- SQLite database with 2 Latin verbs (discere, amare)
+- 36 conjugated forms (imperfect, perfect, future)
+- 4 usage examples
 - Grammatical metadata (tense, person, number, mood)
-- Usage examples
 
 ## Roadmap
 - [ ] Expand vocabulary (100+ Latin words)
