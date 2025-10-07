@@ -108,7 +108,7 @@ conn.commit()
 print("=== Test: Search 'discebam' ===")
 cursor.execute("SELECT lat, eng, tense, person, number FROM conjugations WHERE lat = 'discebam'")
 result = cursor.fetchone()
-print("f{result[0]} = {result[1]} | Tense: {result[2]}, Person: {result[3]}, Number: {result[4]}\n")
+print(f"{result[0]} = {result[1]} | Tense: {result[2]}, Person: {result[3]}, Number: {result[4]}\n")
 
 # Test: All forms of discere
 
