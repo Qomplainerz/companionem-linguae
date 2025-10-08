@@ -5,21 +5,19 @@
 ## Current Status
 Early development - proof of concept for Latin ↔ English dictionary
 
-## Features (v0.1)
-Features (v0.1)
-- SQLite database with 2 Latin verbs (discere, amare)
-- 36 conjugated forms (imperfect, perfect, future)
-- 4 usage examples
-- Grammatical metadata (tense, person, number, mood)
-
 ## Features (v0.2)
-- SQLite database with 1 complete Latin verb (discere)
-- 126 conjugated forms (all tenses, voices, moods)
-- Grammatical metadata (person, number, voice, mood, tense, conjugation, regularity, perfect stem type)
-- Source links to Verbix
+- SQLite database with 1 complete Latin verb (discere - to learn)
+- 126 conjugated forms covering:
+  - All tenses: Present, Imperfect, Perfect, Pluperfect, Future I, Future II
+  - All voices: Active, Passive
+  - All moods: Indicative, Subjunctive, Imperative
+- Comprehensive grammatical metadata (person, number, voice, mood, tense, conjugation type, regularity, perfect stem)
+- Source attribution (Verbix links)
+- Usage examples
 
 ## Roadmap
-- [ ] Expand vocabulary (100+ Latin words)
+- [x] Complete conjugation system for one Latin verb
+- [ ] Expand to 10+ Latin verbs
 - [ ] Add support for nouns, adjectives, adverbs
 - [ ] Implement n-gram language detection
 - [ ] Add support for: Marubo, other marginalized languages
