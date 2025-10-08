@@ -12,6 +12,12 @@ Features (v0.1)
 - 4 usage examples
 - Grammatical metadata (tense, person, number, mood)
 
+## Features (v0.2)
+- SQLite database with 1 complete Latin verb (discere)
+- 126 conjugated forms (all tenses, voices, moods)
+- Grammatical metadata (person, number, voice, mood, tense, conjugation, regularity, perfect stem type)
+- Source links to Verbix
+
 ## Roadmap
 - [ ] Expand vocabulary (100+ Latin words)
 - [ ] Add support for nouns, adjectives, adverbs
