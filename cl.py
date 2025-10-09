@@ -68,7 +68,45 @@ CREATE TABLE IF NOT EXISTS usage_examples (
 # Insert headwords
 
 headwords = [
-    (1, 'discere', 'to learn')
+    (1, 'discere', 'to learn'),
+    (2, 'amāre', 'to love'),
+    (3, 'dare', 'to give'),
+    (4, 'portāre', 'to carry'),
+    (5, 'vocāre', 'to call'),
+    (6, 'labōrāre', 'to work'),
+    (7, 'habēre', 'to have'),
+    (8, 'vidēre', 'to see'),
+    (9, 'tenēre', 'to hold'),
+    (10, 'movēre', 'to move'),
+    (11, 'dēbēre', 'to owe'),
+    (12, 'agere', 'to do'),
+    (13, 'dīcere', 'to say'),
+    (14, 'dūcere', 'to lead'),
+    (15, 'mittere', 'to send'),
+    (16, 'scrībere', 'to write'),
+    (17, 'capere', 'to take'),
+    (18, 'facere', 'to do'),
+    (19, 'venīre', 'to come'),
+    (20, 'audīre', 'to hear'),
+    (21, 'sciīre', 'to know'),
+    (22, 'esse', 'to be (irregular)'),
+    (23, 'posse', 'to be able (irregular)'),
+    (24, 'ferre', 'to bear (irregular)'),
+    (25, 'laudāre', 'to praise'),
+    (26, 'parāre', 'to prepare'),
+    (27, 'stāre', 'to stand'),
+    (28, 'spectāre', 'to look at'),
+    (29, 'errāre', 'to wander'),
+    (30, 'docēre', 'to teach'),
+    (31, 'monēre', 'to warn'),
+    (32, 'timēre', 'to fear'),
+    (33, 'manēre', 'to remain'),
+    (34, 'dūcere', 'to lead'),
+    (35, 'pōnere', 'to put'),
+    (36, 'capiere', 'to take'),
+    (37, 'iacere', 'to throw'),
+    (38, 'dormīre', 'to sleep'),
+    (39, 'esse', 'to be')
 ]
 
 cursor.executemany('''
