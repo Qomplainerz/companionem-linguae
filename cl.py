@@ -101,12 +101,9 @@ headwords = [
     (31, 'monēre', 'to warn'),
     (32, 'timēre', 'to fear'),
     (33, 'manēre', 'to remain'),
-    (34, 'dūcere', 'to lead'),
-    (35, 'pōnere', 'to put'),
-    (36, 'capiere', 'to take'),
-    (37, 'iacere', 'to throw'),
-    (38, 'dormīre', 'to sleep'),
-    (39, 'esse', 'to be')
+    (34, 'pōnere', 'to put'),
+    (35, 'iacere', 'to throw'),
+    (36, 'dormīre', 'to sleep')
 ]
 
 cursor.executemany('''
