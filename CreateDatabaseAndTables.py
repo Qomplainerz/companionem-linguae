@@ -119,6 +119,55 @@ def create_database_and_tables():
             cursor.execute(create_table_query)
             
             print("Table 008_TBL_LANGS was created successfully")
+
+            # Create table 009_TBL_LEXEMES
+            # This table stores the root forms of words and links them with lookup-tables
+            # The JSON field 'GRAMMAR_METADATA_JSON' saves variable properties (i. e. perfec stem, declination type)
+            
+            create_table_query = """
+            CREATE TABLE IF NOT EXISTS 009_TBL_LEXEMES(
+                LEXEME_ID INTEGER PRIMARY KEY AUTO_INCREMENT,
+                REF_LANG_ID INTEGER NOT NULL,
+                REF_POS_TAG_ID INTEGER NOT NULL,
+                LAT_LEMMA VARCHAR(255) NOT NULL,
+                
+                # JSON field for all grammatical metadata
+                # i. e. genus (for nouns), perfect stem (for verbs), comparative forms (for adjectives)
+                GRAMMAR_METADATA_JSON JSON,
+                
+                FOREIGN KEY (REF_LANG_ID) REFERENCES 008_TBL_LANGS(LANG_ID),
+                FOREIGN KEY (REF_POS_TAG_ID) REFERENCES 006_TBL_POS_TAGS(POS_TAG_ID)
+            )
+            """
+            cursor.execute(create_table_query)
+            
+            print("Table 009_TBL_LEXEMES was created successfully.")
+            
+            # Creates another main table (conjugations/declinations)
+            # Stores all flected forms of a word
+            
+            create_table_query = """
+            CREATE TABLE IF NOT EXISTS 010_TBL_FORMS(
+                FORM_ID INTEGER PRIMARY KEY AUTO_INCREMENT,
+                REF_LEXEME_ID INTEGER NOT NULL,
+                REF_TENSE_ID INTEGER,
+                REF_MOOD_ID INTEGER,
+                
+                # Using JSON hybrid here as well
+                # person, numerus, gender, case, polarity etc.
+                FORM_METADATA_JSON JSON,
+                
+                LAT_FORM VARCHAR(255) NOT NULL,
+                ENG_TRANSLATION VARCHAR(255) NOT NULL,
+                
+                FOREIGN KEY (REF_LEXEME_ID) REFERENCES 009_TBL_LEXEMES(LEXEME_ID),
+                FOREIGN KEY (REF_TENSE_ID) REFERENCES 001_TBL_TENSES(TENSE_ID),
+                FOREIGN KEY (REF_MOOD_ID) REFERENCES 002_TBL_MOODS(MOOD_ID)
+            )
+            """
+            cursor.execute(create_table_query)
+            
+            print("Table 010_TBL_FORMS was created successfully!")
             
     except Error as e:
         print(f"Error: {e}")
