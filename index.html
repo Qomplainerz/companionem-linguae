@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Companionem Linguae: Chat with future language models like ULLMs, LLMs, and SLMs.">
+    <meta name="keywords" content="language model, AI chat, ULLM, LLM, SLM, AdeptusCode">
+    <meta name="author" content="AdeptusCode">
+    <title>Companionem Linguae - Chat Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Companionem Linguae</h1>
+        <nav aria-label="Globale Navigation">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li class="dropdown">
+                    <a href="#timers" class="dropbtn">Timers</a>
+                    <div class="dropdown-content">
+                        <a href="/smoke-free-tracker">Smoke-Free-Tracker</a>
+                        <a href="/stopwatch">Stopwatch</a>
+                        <a href="/countdown-timer">Countdown Timer</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+<main class="chat-layout">
+
+    <section class="chat-container" aria-label="Chatverlauf">
+        <div id="chat-window">
+            <div class="message bot">
+                Salve! I am your language companion.
+            </div>
+        </div>
+    </section>
+
+    <section class="chat-input" aria-label="Eingabe">
+        <input
+            type="text"
+            id="user-input"
+            placeholder="Enter your prompt…"
+            autocomplete="off"
+        >
+        <button id="send-btn">Send</button>
+    </section>
+
+</main>
+
+    <footer>
+        <p>&copy; 2025 AdeptusCode – Exploring AI & Language Models</p>
+    </footer>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
