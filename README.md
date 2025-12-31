@@ -1,33 +1,53 @@
 # Companionem Linguae
 
-**A specialized language model for marginalized and classical languages**
+**Companionem Linguae** is an open-source language-learning companion designed to support vocabulary acquisition, language practice, and structured learning workflows.  
+The project focuses on clarity, extensibility, and clean separation of concerns, making it suitable both for end users and contributors who want to build upon a solid foundation.
 
-## Current Status
-Early development - proof of concept for Latin ↔ English dictionary
+---
 
-## Features (v0.3)
-- Migrated from SQLite to MySQL
-- Next steps: Add linker table for headwords
+## Purpose
 
-## Vocabulary Coverage
-- Will be reworked after the migration from SQLite to MySQL
+The goal of Companionem Linguae is to provide a flexible and developer-friendly basis for language-related tools, such as:
 
-## Roadmap
-- [x] Complete conjugation system for one Latin verb
-- [ ] Expand to 10+ Latin verbs
-- [ ] Add support for nouns, adjectives, adverbs
-- [ ] Implement n-gram language detection
-- [ ] Add support for: Marubo, other marginalized languages
-- [ ] Build simple chat interface (tkinter)
-- [ ] Integrate ML-based translation (for high-resource languages)
+- Vocabulary training and repetition
+- Language reference and contextual learning
+- Personal language learning companions
+- Experimentation with linguistic data and workflows
 
-## Why?
-Most NLP tools focus on major languages. This project aims to preserve and make accessible:
-- **Dead languages** (Latin, Ancient Greek)
-- **Marginalized languages** (Marubo, or other indigenous languages)
-- **Hybrid approach:** Rule-based for low-resource, ML for high-resource
+The repository is intentionally structured to remain understandable, maintainable, and adaptable to different use cases.
 
-## Collaboration
-Currently working with Claudio Marubo (native speaker) to collect Marubo language data.
+---
 
-Contributions welcome!
+## Project Status
+
+This project is actively maintained and subject to change.  
+Interfaces, internal structures, and features may evolve as the project matures.
+
+Feedback and contributions are welcome.
+
+---
+
+## Repository Structure
+
+The repository is organized to clearly separate responsibilities and concerns.  
+Each major component has a focused scope to ensure readability and extensibility.
+
+> Please refer to the directory structure and inline documentation for details on individual modules.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- A modern development environment
+- Git
+- Any additional runtime or tooling requirements described in the repository configuration files
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Qomplainerz/companionem-linguae.git
+cd companionem-linguae
